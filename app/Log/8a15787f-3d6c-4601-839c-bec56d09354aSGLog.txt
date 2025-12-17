@@ -1,0 +1,91 @@
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Error in copying FlashUtil10b.exe near executable file to system directory !The file 'C:\Windows\system32\FlashUtil10b.exe' already exists.
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Error in copying Flash10b.ocx near executable file to system directory !The file 'C:\Windows\system32\Flash10b.ocx' already exists.
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] ---------------------------- Start Running Application -----------------------------
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Application.EnableVisualStyles
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Application.SetCompatibleTextRenderingDefault
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Application.ThreadException add handler
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Load' Started
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'ShellLocalSetting.GetInstance' Started
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'ShellLocalSetting.GetInstance' Finished (Duration: 0ms)
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'ShellLocalSetting.Load' Started
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadLocalSetting' Started
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadLocalSetting' Finished (Duration: 0ms)
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'ShellLocalSetting.Load' Finished (Duration: 0ms)
+[General][2025/11/15 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Load' Finished (Duration: 0ms)
+[General][1404/08/24 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadFrameworkMessages' Started
+[General][1404/08/24 09:10:10 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Assembly to load:
+E:\new_sepidar\app\SG.Controls.dll
+E:\new_sepidar\app\SG.Framework.dll
+E:\new_sepidar\app\SG.Framework.FiscalYearManagement.Common.dll
+[General][1404/08/24 09:10:11 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadFrameworkMessages' Finished (Duration: 781/1829ms)
+[General][1404/08/24 09:10:11 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Show FrmLogin' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'InitComponent' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'InitComponent' Finished (Duration: 109/3673ms)
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Find License' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] LicenseFile 'E:\new_sepidar\app\0051607.License'
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Load License' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Decrypt License' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] OldLicenseHash 42e033ea
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Deserialize License' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Deserialize License' Finished (Duration: 0ms)
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Extract Components from License' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Extract Components from License' Finished (Duration: 468/7334ms)
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License CustomerCode:0051607
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License CompanyCount:2
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License MobileDeviceCount:0
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : AddExportTemplate
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ShowDebitCreditNoteInSales
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ShowBillInSales
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ShowBillInInventory
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ShowCheque
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ManagementReport
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Decrypt License' Finished (Duration: 484/3576ms)
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Load License' Finished (Duration: 484/3576ms)
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Find License' Finished (Duration: 484/3576ms)
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Finished (Duration: 0ms)
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Finished (Duration: 0ms)
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Localize' Started
+[General][1404/08/24 09:10:12 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Localize' Finished (Duration: 0ms)
+[General][1404/08/24 09:10:13 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadLoginInfo' Started
+[General][1404/08/24 09:10:13 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadLoginInfo' Finished (Duration: 46/8714ms)
+[General][1404/08/24 09:10:13 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'GetDbList' Started
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Started
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetConfigurations
+Arguments:
+	Int32 : 0
+
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 15 ms
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetConfigurations 46 ms
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetUserConfigurations
+Arguments:
+	 null
+	Int32 : 0
+
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetUserConfigurations 0 ms
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues
+
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues 0 ms
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues
+
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues 0 ms
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Finished (Duration: 93/6997ms)
+[General][1404/08/24 09:10:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'GetDbList' Finished (Duration: 1781/1383ms)
+[General][1404/08/24 09:10:17 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'GetDbList' Started
+[General][1404/08/24 09:10:17 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'GetDatabase' Started
+[General][1404/08/24 09:10:17 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'GetDatabase' Finished (Duration: 0ms)
+[General][1404/08/24 09:10:17 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'GetDbList' Finished (Duration: 109/3611ms)
+[General][1404/08/24 09:10:19 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Started
+[General][1404/08/24 09:10:19 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Finished (Duration: 31/2448ms)
+[General][1404/08/24 09:10:22 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Security.ISecurityService.EnsureUserTableIntegrity
+
+[General][1404/08/24 09:10:22 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Security.Common.IUserBusiness.EnsureUserTableIntegrity
+
+[General][1404/08/24 09:10:22 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Security.Common.IUserBusiness.EnsureUserTableIntegrity 203 ms
+[General][1404/08/24 09:10:22 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Security.ISecurityService.EnsureUserTableIntegrity 203 ms
+[General][1404/08/24 09:10:22 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.Security.Common.DsUser, SG.Framework.Security.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/08/24 09:10:22 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.Security.Common.DsUser, SG.Framework.Security.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 31 ms

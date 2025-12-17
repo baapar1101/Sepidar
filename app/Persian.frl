@@ -1,0 +1,1576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language Name="fa" Author="Mostafa Khademolmele &lt;hatefco.com@gmail.com&gt;">
+  <Buttons>
+    <Ok Text="تاييد"/>
+    <Cancel Text="انصراف"/>
+    <Close Text="بستن"/>
+    <MoreOptions Text="تنظيمات بيشتر"/>
+    <LessOptions Text="تنظيمات كمتر"/>
+    <Actions Text="عمليات"/>
+    <Previous Text="قبلي"/>
+    <Next Text="بعدي"/>
+    <Finish Text="پايان"/>
+    <Advanced Text="پيشرفته..."/>
+  </Buttons>
+  <Messages>
+    <AccessingData Text="دسترسي به داده ها..."/>
+    <CantFindObject Text="شي پيدا نشد"/>
+    <CantLoadReport Text="عدم امكان بارگزاري گزارش  {0}"/>
+    <CantSaveReport Text="ذخيره سازي گزارش امكان پذير نيست. ممكن است فايل محافظت شده باشد."/>
+    <ClassError Text="كلاس اصلي گزارش پيدا نشد"/>
+    <Confirmation Text="تاييد"/>
+    <DataNotInitialized Text="منبع داده هنوز مقدار دهي نشده است."/>
+    <DecompressError Text="امكان خارج نمودن فايل از حالت فشرده سازي شده وجود ندارد"/>
+    <DecryptError Text="خطا در رمزگشايي: گذرواژه اشتباه"/>
+    <DelegateError Text="{0} delegate بايد داراي دو پارامتر باشد: 'sender' و 'e'"/>
+    <DeleteAncestor Text="امكان حذف  {0} وجود ندارد، اين شي در گزارش والد ايجاد  شده است"/>
+    <DuplicateName Text="شي با نام  {0} از قبل وجود دارد"/>
+    <DuplicateStyle Text="سبكي با اين نام از قبل وجود دارد"/>
+    <Error Text="خطا"/>
+    <EventError Text="به دليل وجود خطاهايي در كد برنامه امكان ايجاد رسيدگي كننده به رويداد وجود ندارد"/>
+    <ExportingPage Text="صدور صفحه  {0} از {1}"/>
+    <GeneratingPage Text="توليد صفحه {0}"/>
+    <GeneratingPageFirstPass Text="اولين گذر: توليد صفحه {0}"/>
+    <Information Text="اطلاع"/>
+    <MatrixError Text="{0}: شيئ ماتريس بايد حداقل داراي يك ستون يا يك رديف و يك سلول باشد."/>
+    <MatrixValueError Text="تعداد مقادير با MatrixData تفاوت دارد. تعداد سلول (بايد {0} باشد)"/>
+    <ParentError Text="شيئي از نوع {0} نمي تواند شامل شيئي از نوع {1} باشد"/>
+    <ParentError1 Text="شيئي از نوع {0} نمي تواند شامل اشيا ديگر باشد"/>
+    <Performance Text="آماده سازي شده در {0} ميلي ثانيه"/>
+    <PreparingData Text="آماده سازي داده..."/>
+    <PrintingPage Text="چاپ صفحه {0}"/>
+    <RenameAncestor Text="امكان تغيير نام{0} وجود ندارد، اين مورد بايد در گزارش والد درج شود"/>
+    <SaveChanges Text="ذخيره سازي تغييرات در  {0}؟"/>
+    <SaveChangesToPreviewPage Text="تغييرات در صفحه پيش نمايش ذخيره شود؟"/>
+    <TableIsNull Text="جدول به داده اي مرتبط نشده است. داده ها را با استفاده از متد Report.RegisterData ثبت نماييد."/>
+    <TableManualBuildError Text="فقط در رويداد ManualBuild مي توانيد از متدهاي  TableObject.PrintRow و PrintColumn استفاده نماييد."/>
+    <Warning Text="هشدار"/>
+    <WrongFileFormat Text="امكان بارگذاري فايل وجود ندارد. قالب فايل قابل شناسايي نيست"/>
+  </Messages>
+  <Misc>
+    <ShortUnitsMm Text="mm"/>
+    <ShortUnitsCm Text="cm"/>
+    <ShortUnitsIn Text="in"/>
+    <ShortUnitsHi Text="hi"/>
+    <Sample Text="نمونه"/>
+    <None Text="هيچكدام"/>
+    <PageN Text="صفحه {0}"/>
+    <PageNofM Text="صفحه {0} از {1}"/>
+    <ofM Text="از {0}"/>
+  </Misc>
+  <Objects>
+    <Report Text="گزارش"/>
+    <ReportPage Text="صفحه گزارش"/>
+    <DialogPage Text="صفحه پنجره"/>
+    <XmlDataConnection Text="رابط بانك اطلاعات XML"/>
+    <OleDbDataConnection Text="رابط OLE DB"/>
+    <MsAccessDataConnection Text="رابط MS Access"/>
+    <MsSqlDataConnection Text="رابط MS SQL"/>
+    <OdbcDataConnection Text="رابط ODBC"/>
+    <FirebirdDataConnection Text="رابط Firebird"/>
+    <VistaDBDataConnection Text="رابط VistaDB"/>
+    <PostgresDataConnection Text="رابط Postgres"/>
+    <MySqlDataConnection Text="رابط MySQL"/>
+    <OracleDataConnection Text="رابط Oracle"/>
+    <SQLiteDataConnection Text="رابط SQLite"/>
+    <Bands Text="باندها">
+      <ReportTitle Text="عنوان گزارش"/>
+      <ReportSummary Text="خلاصه گزارش"/>
+      <PageHeader Text="سرصفحه"/>
+      <PageFooter Text="ته برگ"/>
+      <ColumnHeader Text="سرستون"/>
+      <ColumnFooter Text="ته ستون"/>
+      <DataHeader Text="سر داده"/>
+      <DataFooter Text="ته داده"/>
+      <Data Text="داده"/>
+      <GroupHeader Text="سر گروه"/>
+      <GroupFooter Text="ته گروه"/>
+      <Child Text="فرزند"/>
+      <Overlay Text="پوشش"/>
+    </Bands>
+    <TextObject Text="متن"/>
+    <Shapes Text="شكل ها">
+      <Line Text="خط"/>
+      <DiagonalLine Text="خط اوريب/پيكان"/>
+      <Rectangle Text="مستطيل"/>
+      <RoundRectangle Text="مستطيل لبه گرد"/>
+      <Ellipse Text="بيضي"/>
+      <Triangle Text="مثلث"/>
+      <Diamond Text="لوزي"/>
+    </Shapes>
+    <PictureObject Text="تصوير"/>
+    <TableObject Text="جدول"/>
+    <MatrixObject Text="ماتريس"/>
+    <SubreportObject Text="زيرگزارش"/>
+    <BarcodeObject Text="باركد"/>
+    <RichObject Text="Rich Text"/>
+    <MSChartObject Text="نمودار"/>
+    <ZipCodeObject Text="كد پستي"/>
+    <CellularTextObject Text="حرف مقطع"/>
+    <CheckBoxObject Text="CheckBox"/>
+    <ButtonControl Text="Button"/>
+    <CheckBoxControl Text="CheckBox"/>
+    <CheckedListBoxControl Text="CheckedListBox"/>
+    <ComboBoxControl Text="ComboBox"/>
+    <GridControl Text="Grid"/>
+    <DataSelectorControl Text="DataSelector"/>
+    <DateTimePickerControl Text="DateTimePicker"/>
+    <GroupBoxControl Text="GroupBox"/>
+    <LabelControl Text="Label"/>
+    <ListBoxControl Text="ListBox"/>
+    <ListViewControl Text="ListView"/>
+    <MaskedTextBoxControl Text="MaskedTextBox"/>
+    <MonthCalendarControl Text="MonthCalendar"/>
+    <NumericUpDownControl Text="NumericUpDown"/>
+    <PanelControl Text="Panel"/>
+    <PictureBoxControl Text="PictureBox"/>
+    <RadioButtonControl Text="RadioButton"/>
+    <RichTextBoxControl Text="RichTextBox"/>
+    <TextBoxControl Text="TextBox"/>
+    <TreeViewControl Text="TreeView"/>
+  </Objects>
+  <Functions>
+    <Math Text="رياضي"/>
+    <Text Text="متن"/>
+    <DateTime Text="تاريخ و ساعت"/>
+    <Formatting Text="قالب بندي"/>
+    <Conversion Text="تبديل"/>
+    <ProgramFlow Text="روند برنامه"/>
+  </Functions>
+  <FileFilters>
+    <Report Text="فايل گزارش (*.frx)|*.frx"/>
+    <PreparedReport Text="گزارش آماده (*.fpx)|*.fpx"/>
+    <Style Text="Report styles (*.frs)|*.frs"/>
+    <Dictionary Text="Dictionary (*.frd)|*.frd"/>
+    <Localization Text="Localization file (*.frl)|*.frl"/>
+    <XsdFile Text="XML schema definition file (*.xsd)|*.xsd"/>
+    <XmlFile Text="فايل XML (*.xml)|*.xml"/>
+    <MdbFile Text="فايل MS Access (*.mdb)|*.mdb"/>
+    <MdfFile Text="فايل  Microsoft SQL Server databases (*.mdf)|*.mdf"/>
+    <RtfFile Text="فايل Rich Text(*.rtf)|*.rtf"/>
+    <Images Text="فايل هاي تصوير|*.bmp;*.png;*.jpg;*.jpeg;*.gif;*.tiff;*.tif;*.ico;*.emf;*.wmf"/>
+    <Assembly Text="اسمبلي (*.dll,*.exe)|*.dll;*.exe"/>
+    <PrnFile Text="فايل چاپگر (*.prn)|*.prn"/>
+    <BmpFile Text="تصوير Bitmap (*.bmp)|*.bmp"/>
+    <PngFile Text="تصوير PNG (*.png)|*.png"/>
+    <JpegFile Text="تصوير JPG (*.jpg)|*.jpg"/>
+    <GifFile Text="تصوير GIF (*.gif)|*.gif"/>
+    <TiffFile Text="تصوير TIFF (*.tiff)|*.tiff"/>
+    <MetafileFile Text="Windows metafile (*.emf)|*.emf"/>
+    <HtmlFile Text="فايل HTML (*.html)|*.html"/>
+    <OdtFile Text="فايل Open Office Writer (*.odt)|*.odt"/>
+    <OdsFile Text="فايل Open Office Calc (*.ods)|*.ods"/>
+    <PdfFile Text="فايل Adobe Acrobat (*.pdf)|*.pdf"/>
+    <TxtFile Text="فايل متني (*.txt)|*.txt"/>
+    <CsvFile Text="مقادير جدا شده با ويرگول (*.csv)|*.csv"/>
+    <XlsFile Text="فايل MS Excel (*.xls)|*.xls"/>
+    <CsFile Text="فايل C# (*.cs)|*.cs"/>
+    <VbFile Text="فايل VB.Net (*.vb)|*.vb"/>
+    <FdbFile Text="فايل بانك اطلاعاتي Firebird (*.fdb)|*.fdb"/>
+    <Vdb3File Text="فايل بانك اطلاعاتي VistaDB (*.vdb*)|*.vdb*"/>
+    <XlsxFile Text="فايل MS Excel (*.xlsx)|*.xlsx"/>
+    <PptxFile Text="فايل MS PowerPoint (*.pptx)|*.pptx"/>
+    <PptFile Text="فايل Microsoft PowerPoint (*.pptx)|*.pptx"/>
+  </FileFilters>
+  <Formats>
+    <Date1 Text="d"/>
+    <Date2 Text="D"/>
+    <Date3 Text="f"/>
+    <Date4 Text="F"/>
+    <Date5 Text="MM/dd/yy"/>
+    <Date6 Text="MMMM dd, yyyy"/>
+    <Date7 Text="MMMM yyyy"/>
+    <Time1 Text="t"/>
+    <Time2 Text="T"/>
+    <Time3 Text="hh:mm tt"/>
+    <Time4 Text="HH:mm"/>
+    <BooleanF1 Text="False"/>
+    <BooleanF2 Text="خير"/>
+    <BooleanF3 Text="خاموش"/>
+    <BooleanF4 Text=" "/>
+    <BooleanT1 Text="True"/>
+    <BooleanT2 Text="بلي"/>
+    <BooleanT3 Text="روشن"/>
+    <BooleanT4 Text="X"/>
+    <Custom1 Text="شماره تلفن;(000) 000-0000"/>
+    <Custom2 Text="شماره تلفن و كد;+0(000) 000-0000"/>
+    <Custom3 Text="كد ملي;000-000000-0"/>
+    <Custom4 Text="كد پستي;00000"/>
+    <Custom5 Text="كد پستي ده رقمي;00000-00000"/>
+  </Formats>
+  <Designer>
+    <Menu>
+      <File Text="فايل">
+        <New Text="جديد..."/>
+        <Open Text="باز..."/>
+        <Close Text="بستن"/>
+        <Save Text="ذخيره سازي"/>
+        <SaveAs Text="ذخيره سازي با نام..."/>
+        <SaveAll Text="ذخيره سازي همه"/>
+        <PageSetup Text="تنظيم صفحه..."/>
+        <PrinterSetup Text="تنظيم چاپگر..."/>
+        <Preview Text="پيش نمايش..."/>
+        <SelectLanguage Text="انتخاب زبان..."/>
+        <Exit Text="خروج"/>
+      </File>
+      <Edit Text="ويرايش">
+        <Undo Text="Undo"/>
+        <Redo Text="Redo"/>
+        <Cut Text="بريدن"/>
+        <Copy Text="كپي"/>
+        <Paste Text="چسباندن"/>
+        <Delete Text="حذف"/>
+        <DeletePage Text="حذف صفحه"/>
+        <SelectAll Text="انتخاب همه"/>
+        <Group Text="گروه بندي"/>
+        <Ungroup Text="خروج از گروه"/>
+        <Find Text="جستجو..."/>
+        <Replace Text="جايگزين..."/>
+      </Edit>
+      <View Text="نما">
+        <StartPage Text="ابتداي صفحه"/>
+        <Toolbars Text="نوار ابزار"/>
+        <Options Text="تنظيمات..."/>
+        <Grid Text="Grid"/>
+        <Guides Text="راهنماها"/>
+        <AutoGuides Text="راهنماي خودكار"/>
+        <DeleteHGuides Text="حذف راهنماهاي افقي"/>
+        <DeleteVGuides Text="حذف راهنماهاي عمودي"/>
+        <Units Text="واحدها"/>
+      </View>
+      <Insert Text="درج"/>
+      <Report Text="گزارش">
+        <Bands Text="پيكره بندي باندها..."/>
+        <Styles Text="سبك ها..."/>
+        <GroupExpert Text="متخصص گروه بندي..."/>
+        <Options Text="تنظيمات..."/>
+      </Report>
+      <Data Text="داده">
+        <ShowData Text="نمايش پنجره داده"/>
+        <Add Text="افزودن منبع داده..."/>
+        <Choose Text="انتخاب داده هاي گزارش..."/>
+      </Data>
+      <Window Text="پنجره">
+        <CloseAll Text="بستن همه"/>
+      </Window>
+      <Help Text="راهنما">
+        <Contents Text="سرفصل هاي راهنما..."/>
+        <About Text="درباره..."/>
+      </Help>
+    </Menu>
+    <ToolWindow>
+      <Properties Text="خصوصيات">
+        <PropertiesTab Text="خصوصيات"/>
+        <EventsTab Text="رويدادها"/>
+        <NObjectsSelected Text="{0} شي انتخاب شده اند"/>
+      </Properties>
+      <ReportTree Text="درختواره گزارش"/>
+      <Dictionary Text="داده">
+        <DataSources Text="منابع داده"/>
+        <Parameters Text="پارامترها"/>
+        <SystemVariables Text="متغيرهاي سيستمي"/>
+        <Totals Text="سرجمع ها"/>
+        <Functions Text="توابع"/>
+        <New Text="ديكشنري جديد..."/>
+        <Open Text="باز نمودن ديكشنري..."/>
+        <Save Text="ذخيره سازي ديكشنري..."/>
+        <Merge Text="ادغام ديكشنري..."/>
+        <NewDataSource Text="منبع داده جديد..."/>
+        <NewRelation Text="رابطه جديد..."/>
+        <NewParameter Text="پارامتر جديد"/>
+        <NewTotal Text="سرجمع جديد..."/>
+        <NewCalculatedColumn Text="ستون محاسباتي جديد..."/>
+        <Rename Text="تغيير نام"/>
+        <Edit Text="ويرايش..."/>
+        <Delete Text="حذف"/>
+        <DeleteAlias Text="حذف مستعار"/>
+        <View Text="نمايش داده..."/>
+        <DuplicateName Text="موردي با اين نام از قبل وجود دارد"/>
+        <NRows Text="{0} رديف"/>
+      </Dictionary>
+      <Messages Text="پيام ها">
+        <Description Text="شرح"/>
+        <Line Text="خط"/>
+        <Column Text="ستون"/>
+      </Messages>
+    </ToolWindow>
+    <Toolbar>
+      <AddOrRemove Text="افزودن يا حذف دكمه ها"/>
+      <Reset Text="بازنشاني نوار ابزار"/>
+      <Standard Text="استاندارد">
+        <New Text="افزودن مورد جديد"/>
+        <Open Text="باز كردن گزارش (Ctrl+O)"/>
+        <Save Text="ذخيره سازي گزارش (Ctrl+S)"/>
+        <SaveAll Text="ذخيره سازي همه (Ctrl+Shift+S)"/>
+        <Preview Text="پيش نمايش (Ctrl+P)"/>
+        <NewPage Text="صفحه گزارش جديد"/>
+        <NewDialog Text="پنجره جديد"/>
+        <DeletePage Text="حذف صفحه"/>
+        <PageSetup Text="تنظيم صفحه"/>
+        <Cut Text="بريدن (Ctrl+X)"/>
+        <Copy Text="كپي (Ctrl+C)"/>
+        <Paste Text="چسباندن (Ctrl+V)"/>
+        <FormatPainter Text="نگارگر قالب"/>
+        <Undo Text="Undo (Ctrl+Z)"/>
+        <Redo Text="Redo"/>
+        <Group Text="گروه"/>
+        <Ungroup Text="خروج از گروه"/>
+      </Standard>
+      <Text Text="متن">
+        <Name Text="نام قلم"/>
+        <Size Text="اندازه قلم"/>
+        <Bold Text="پررنگ"/>
+        <Italic Text="ايتاليك"/>
+        <Underline Text="خط زيرين"/>
+        <Left Text="چپ چين"/>
+        <Center Text="وسط چين"/>
+        <Right Text="راست چين"/>
+        <Justify Text="تراز"/>
+        <Top Text="بالا چين"/>
+        <Middle Text="ميان چين"/>
+        <Bottom Text="پايين چين"/>
+        <Color Text="رنگ متن"/>
+        <Highlight Text="برجسته"/>
+        <Angle Text="زاويه متن"/>
+      </Text>
+      <Border Text="لبه و محتوا">
+        <Top Text="خط بالا"/>
+        <Bottom Text="خط پايين"/>
+        <Left Text="خط چپ"/>
+        <Right Text="خط راست"/>
+        <All Text="خطوط تمام لبه ها"/>
+        <None Text="بدون لبه"/>
+        <FillColor Text="رنگ محتوا"/>
+        <FillStyle Text="سبك محتوا..."/>
+        <LineColor Text="رنگ لبه"/>
+        <Width Text="عرض لبه"/>
+        <Style Text="سبك لبه"/>
+        <Props Text="خصوصيات لبه..."/>
+      </Border>
+      <Style Text="سبك">
+        <Styles Text="سبك ها"/>
+        <SelectStyle Text="انتخاب سبك"/>
+        <NoStyle Text="بدون سبك"/>
+      </Style>
+      <Layout Text="چيدمان">
+        <AlignToGrid Text="تراز بر اساس Grid"/>
+        <Left Text="تراز چپ"/>
+        <Center Text="تراز وسط"/>
+        <Right Text="تراز راست"/>
+        <Top Text="تراز بالا"/>
+        <Middle Text="تراز ميانه"/>
+        <Bottom Text="تراز پايين"/>
+        <SameWidth Text="عرض برابر"/>
+        <SameHeight Text="ارتفاع برابر"/>
+        <SameSize Text="ابعاد برابر"/>
+        <SizeToGrid Text="اندازه بر اساس Grid"/>
+        <SpaceHorizontally Text="فاصله افقي"/>
+        <IncreaseHorizontalSpacing Text="افزايش فاصله افقي"/>
+        <DecreaseHorizontalSpacing Text="كاهش فاصله افقي"/>
+        <RemoveHorizontalSpacing Text="حذف فاصله افقي"/>
+        <SpaceVertically Text="فاصله عمودي"/>
+        <IncreaseVerticalSpacing Text="افزايش فاصله عمودي"/>
+        <DecreaseVerticalSpacing Text="كاهش فاصله عمودي"/>
+        <RemoveVerticalSpacing Text="حذف فاصله عمودي"/>
+        <CenterHorizontally Text="وسط افقي"/>
+        <CenterVertically Text="وسط عمودي"/>
+        <BringToFront Text="جلو آوردن"/>
+        <SendToBack Text="عقب راندن"/>
+      </Layout>
+      <Objects Text="اشيا">
+        <Select Text="انتخاب"/>
+      </Objects>
+      <Zoom Text="زوم">
+        <ZoomOut Text="كوچك نمايي"/>
+        <ZoomIn Text="بزرگ نمايي"/>
+        <Zoom Text="زوم"/>
+        <PageWidth Text="هم عرض صفحه"/>
+        <WholePage Text="تمام صفحه"/>
+      </Zoom>
+    </Toolbar>
+    <Workspace>
+      <Code Text="كد"/>
+      <Report>
+        <ConfigureBands Text="پيكره بندي باندها..."/>
+      </Report>
+    </Workspace>
+    <Options Text="تنظيمات"/>
+    <UndoRedo>
+      <Delete Text="حذف {0}"/>
+      <Move Text="انتقال {0}"/>
+      <Size Text="تغيير اندازه {0}"/>
+      <Change Text="تغيير {0}"/>
+      <AddGuide Text="افزودن راهنما"/>
+      <MoveGuide Text="انتقال راهنما"/>
+      <DeleteHGuides Text="حذف راهنماهاي افقي"/>
+      <DeleteVGuides Text="حذف راهنماهاي عمودي"/>
+      <ResizeBand Text="تغيير اندازه باند"/>
+      <ChangeParent Text="تغيير والد {0}"/>
+      <Load Text="بارگذاري گزارش"/>
+      <Paste Text="چسباندن {0}"/>
+      <Insert Text="درج {0}"/>
+      <AddPage Text="افزودن صفحه {0}"/>
+      <DeletePage Text="حذف صفحه"/>
+      <Script Text="اسكريپت تغيير يافت"/>
+      <NObjects Text="{0} شيئ"/>
+      <UndoN Text="باز گرداني {0} عمل"/>
+      <RedoN Text="اجراي مجدد {0} عمل"/>
+      <ChangeReport Text="تغيير گزارش"/>
+      <ChangePagesOrder Text="تغيير ترتيب صفحات"/>
+      <EditPage Text="ويرايش صفحه"/>
+      <EditPrinter Text="ويرايش تنظيمات چاپگر"/>
+      <EditReport Text="ويرايش تنظيمات گزارش"/>
+      <SelectData Text="انتخاب داده"/>
+      <EditData Text="ويرايش داده"/>
+    </UndoRedo>
+    <StartPage Text="صفحه شروع"/>
+    <Untitled Text="Untitled.frx"/>
+    <ColorSelector>
+      <CustomColors Text="سفارشي"/>
+      <WebColors Text="وب"/>
+      <SystemColors Text="سيستم"/>
+      <Other Text="ديگر رنگ ها..."/>
+      <Transparency Text="شفافيت:"/>
+    </ColorSelector>
+  </Designer>
+  <Preview Text="پيش نمايش">
+    <PrintText Text="چاپ"/>
+    <Print Text="چاپ"/>
+    <Open Text="باز "/>
+    <Save Text=" ذخيره فايل"/>
+    <SaveText Text="ذخيره"/>
+    <Email Text="ارسال بوسيله رايانامه"/>
+    <Find Text="جستجوي متن"/>
+    <Outline Text="سرفصل ها"/>
+    <PageSetup Text="تنظيمات صفحه"/>
+    <Edit Text="ويرايش صفحه"/>
+    <Watermark Text="تصوير زمينه"/>
+    <First Text="اولين"/>
+    <Prior Text="قبلي"/>
+    <Next Text="بعدي"/>
+    <Last Text="آخرين"/>
+    <SaveNative Text="گزراش آماده"/>
+  </Preview>
+  <Forms>
+    <AddNewItem Text="افزودن مورد جديد">
+      <Add Text="افزودن"/>
+      <Reports Text="الگوي گزارش:"/>
+      <ReportItems Text="موارد گزارش:"/>
+    </AddNewItem>
+    <AdvancedConnectionProperties Text="خصوصيات پيشرفته"/>
+    <AskPassword Text="گذرواژه">
+      <Password Text="اين گزارش محافظت شده است."/>
+    </AskPassword>
+    <AskLoginPassword Text="ورود به بانك اطلاعات">
+      <Login Text="كاربر:"/>
+      <Password Text="گذارواژه:"/>
+    </AskLoginPassword>
+    <BaseReportWizard>
+      <SelectDataSourcePage Text="انتخاب منبع داده"/>
+      <SelectDataSource Text="يكي از منابع داده را انتخاب كنيد يا منبع جديدي ايجاد نماييد:"/>
+      <CreateNewDatasource Text="ايجاد منبع داده جديد..."/>
+      <SelectColumnsPage Text="انتخاب ستون هاي داده"/>
+      <SelectColumns Text="ستون هاي داده مورد نظرتان را براي نمايش در گزارش انتخاب كنيد."/>
+      <AvailableColumns Text="ستون هاي موجود:"/>
+      <SelectedColumns Text="ستون هاي انتخاب شده:"/>
+    </BaseReportWizard>
+    <Border Text="ويرايش لبه ها">
+      <Border Text="لبه"/>
+      <Line Text="خط"/>
+      <Shadow Text="سايه"/>
+      <Style Text="سبك:"/>
+      <Width Text="عرض:"/>
+      <Color Text="رنگ:"/>
+      <Hint Text="براي اعمال سبك ابتدا سبك خط سپس لبه مورد نظر را انتخاب كنيد."/>
+    </Border>
+    <ChartEditor Text="ويرايش نمودار">
+      <Chart Text="نمودار"/>
+      <Add Text="افزودن..."/>
+      <Delete Text="حذف"/>
+      <Hint Text="براي تنظيم خصوصيات هر روي يك مورد كليك كنيد:"/>
+      <Common>
+        <Color Text="رنگ:"/>
+        <BackColor Text="رنگ زمينه:"/>
+        <SecondaryColor Text="رنگ دوم:"/>
+        <Gradient Text="طيف:"/>
+        <HatchStyle Text="سبك هاشور:"/>
+        <BorderColor Text="رنگ لبه:"/>
+        <BorderStyle Text="سبك لبه:"/>
+        <BorderWidth Text="عرض لبه:"/>
+        <ShadowColor Text="رنگ سايه:"/>
+        <ShadowOffset Text="فاصله سايه:"/>
+        <LineColor Text="رنگ خط:"/>
+        <LineStyle Text="سبك خط:"/>
+        <LineWidth Text="عرض خط:"/>
+        <Text Text="متن:"/>
+        <Font Text="قلم:"/>
+        <ForeColor Text="رنگ پيش زمينه:"/>
+        <Dock Text="لنگر:"/>
+        <InsideChartArea Text="درون محوطه نمودار"/>
+        <Format Text="قالب:"/>
+      </Common>
+      <ChartEditorControl>
+        <Data Text="داده">
+          <DataSource Text="منبع داده:"/>
+          <Filter Text="فيلتر:"/>
+          <AutoSeries Text="سري هاي خود-ساز"/>
+          <DataColumn Text="ستون داده:"/>
+          <ColorColumn Text="رنگ ستون:"/>
+          <SeriesSort Text="ترتيب سريال:"/>
+          <AlignXValues Text="تراز نمودن مقادير X"/>
+        </Data>
+        <Appearance Text="نما">
+          <Template Text="الگو:"/>
+          <Load Text="بارگذاري..."/>
+          <Save Text="ذخيره..."/>
+          <SeriesPalette Text="لوح سري ها:"/>
+          <BorderSkin Text="روكش لبه:"/>
+        </Appearance>
+        <ChartArea Text="محوطه نمودار">
+          <Area Text="محوطه:"/>
+        </ChartArea>
+        <ThreeD Text="سه بعدي">
+          <Enable Text="فعال سازي سه بعدي"/>
+          <XRotation Text="چرخش X:"/>
+          <YRotation Text="چرخش Y:"/>
+          <Perspective Text="پرستكتيو:"/>
+          <WallWidth Text="عرض ديواره:"/>
+          <AxisDepth Text="عمق محور:"/>
+          <LightStyle Text="سبك نورپردازي:"/>
+          <ClusteredSeries Text="سري ها دسته بندي شوند"/>
+        </ThreeD>
+        <Axes Text="محورها">
+          <Axis Text="محور:"/>
+          <CopyFromX Text="كپي برداري از شكل ظاهري محور X"/>
+          <CopyFromPrimary Text="كپي برداري از شكل ظاهري محور اصلي"/>
+          <Minor Text="كهاد"/>
+          <Major Text="مهاد"/>
+          <General Text="عمومي">
+            <Enabled Text="فعال"/>
+            <MarginVisible Text="نمايش حاشيه"/>
+            <Logarithmic Text="لگاريتمي"/>
+            <Reversed Text="معكوس"/>
+            <Interval Text="فاصله"/>
+            <Interlaced Text="يك خط در ميان"/>
+            <InterlacedColor Text="رنگ ميان:"/>
+          </General>
+          <Labels Text="برچسب">
+            <Enabled Text="فعال"/>
+            <Angle Text="زاويه:"/>
+          </Labels>
+          <Title Text="عنوان"/>
+          <CustomLabels Text="برچسب سفارشي">
+            <Label Text="برچسب"/>
+            <Start Text="شروع:"/>
+            <End Text="پايان:"/>
+            <Row Text="سطر:"/>
+            <MarkColor Text="رنگ علامت:"/>
+            <MarkStyle Text="سبك علامت:"/>
+          </CustomLabels>
+          <Grid Text="Grid">
+            <GridLine Text="خط Grid :"/>
+            <Enabled Text="فعال"/>
+          </Grid>
+          <Ticks Text="تيك">
+            <Ticks Text="تيك"/>
+            <Enabled Text="فعال"/>
+            <TickStyle Text="سبك تيك:"/>
+            <TickSize Text="اندازه تيك:"/>
+          </Ticks>
+          <Strips Text="نوارها">
+            <Strip Text="نوار"/>
+            <Interval Text="فاصله">
+              <Start Text="شروع:"/>
+              <Width Text="عرض:"/>
+              <Interval Text="فاصله:"/>
+            </Interval>
+            <Appearance Text="ظاهر"/>
+            <Text Text="متن">
+              <HorizontalAlign Text="تراز افقي:"/>
+              <VerticalAlign Text="تراز عمودي:"/>
+              <TextOrientation Text="جهت متن:"/>
+            </Text>
+          </Strips>
+        </Axes>
+        <Legend Text="فهرست">
+          <Enabled Text="فعال"/>
+          <StyleColumn Text="ستون"/>
+          <StyleRow Text="سطر"/>
+          <StyleTable Text="جدول"/>
+          <General Text="عمومي">
+            <LegendStyle Text="سبك فهرست:"/>
+          </General>
+          <Appearance Text="ظاهر"/>
+        </Legend>
+        <Title Text="عنوان">
+          <Visible Text="نمايان"/>
+          <General Text="عمومي">
+            <TextOrientation Text="جهت متن:"/>
+            <TextStyle Text="سبك متن:"/>
+          </General>
+          <Appearance Text="ظاهر"/>
+        </Title>
+      </ChartEditorControl>
+      <SeriesEditorControl>
+        <Data Text="داده">
+          <Name Text="نام:"/>
+          <XValue Text="مقدار X:"/>
+          <Color Text="رنگ:"/>
+          <Filter Text="فيلتر:"/>
+          <XValueType Text="نوع مقادير X:"/>
+          <YValueType Text="نوع مقادير Y:"/>
+          <XAxisType Text="محور X:"/>
+          <YAxisType Text="محور Y:"/>
+          <PrimaryAxis Text="اصلي"/>
+          <SecondaryAxis Text="ثانويه"/>
+          <SeriesValues>
+            <YValue Text="مقدار Y:"/>
+            <High Text="بالا:"/>
+            <Low Text="پايين:"/>
+            <Open Text="باز:"/>
+            <Close Text="بسته:"/>
+            <RangeBegin Text="شروع بازه:"/>
+            <RangeEnd Text="پايان بازه:"/>
+            <Size Text="اندازه:"/>
+            <YValue1 Text="مقدار 1 Y:"/>
+            <YValue2 Text="مقدار 2 Y:"/>
+          </SeriesValues>
+        </Data>
+        <Values Text="مقادير"/>
+        <DataProcessing Text="پردازش داده ها">
+          <SortBy Text="ترتيب:"/>
+          <SortByX Text="مقدار X"/>
+          <SortByY Text="مقدار Y"/>
+          <SortOrder Text="نوع ترتيب:"/>
+          <GroupBy Text="گروه بندي:">
+            <None Text="هيچكدام"/>
+            <XValue Text="مقدار X"/>
+            <Number Text="عدد"/>
+            <Years Text="سال ها"/>
+            <Months Text="ماه ها"/>
+            <Weeks Text="هفته ها"/>
+            <Days Text="روزها"/>
+            <Hours Text="ساعت ها"/>
+            <Minutes Text="دقايق"/>
+            <Seconds Text="ثانيه ها"/>
+            <Milliseconds Text="ميلي ثانيه ها"/>
+          </GroupBy>
+          <GroupInterval Text="فاصله گروه:"/>
+          <GroupFunction Text="تابع گروه:"/>
+          <CollectData Text="دريافت داده:">
+            <None Text="هيچ كدام"/>
+            <TopN Text="TopN"/>
+            <BottomN Text="BottomN"/>
+            <LessThan Text="كمتر از مقدار"/>
+            <LessThanPercent Text="كمتر از درصد"/>
+            <GreaterThan Text="بيشتر از مقدار"/>
+            <GreaterThanPercent Text="بيشتر از درصد"/>
+          </CollectData>
+          <Value Text="مقدار:"/>
+          <CollectedText Text="متن دريافتي:"/>
+          <CollectedColor Text="رنگ دريافتي:"/>
+          <Explode Text="تجزيه:">
+            <None Text="هيچكدام"/>
+            <Biggest Text="بيشنه مقدار"/>
+            <Lowest Text="كمينه مقدار"/>
+            <Specific Text="مقدار معيين"/>
+          </Explode>
+        </DataProcessing>
+        <Appearance Text="ظاهر">
+          <Default Text="پيش فرض"/>
+          <DrawingStyle Text="سبك ترسيم:"/>
+          <PointWidth Text="عرض نقطه:"/>
+          <LabelsStyle Text="سبك برچسب ها:"/>
+          <DrawSideBySide Text="ترسيم پهلو-به-پهلو"/>
+          <ShowMarkerLines Text="نمايش خطوط نشان"/>
+          <DoughnutRadius Text="زاويه گردش (%):"/>
+          <AreaDrawingStyle Text="سبك ترسيم محيط:"/>
+          <Markers Text="نشان ها:"/>
+          <PriceUpColor Text="انتخاب رنگ:"/>
+          <ReversalAmount Text="مقدار برگشتي:"/>
+          <BoxSize Text="اندازه جعبه:"/>
+          <NumberOfLinesInBreak Text="خطوط در بريدگي:"/>
+          <LabelsPlacement Text="مكان برچسب ها:"/>
+          <PointsGap Text="فاصله نقاط:"/>
+          <MinPointHeight Text="كمينه ارتفاع نقاط:"/>
+          <ValueType Text="نوع مقدار:"/>
+          <ThreeDDrawingStyle Text="سبك ترسيم سه بعدي:"/>
+          <ThreeDRotation Text="چرخش سه بعدي:"/>
+          <FunnelStyle Text="سبك قيقي:"/>
+          <LineTension Text="امتداد خط:"/>
+          <NoSettings Text="تنظيماتي براي اين نوع سري تعريف نشده است."/>
+        </Appearance>
+        <FillBorder Text="محتوا و لبه">
+          <Palette Text="پالت:"/>
+        </FillBorder>
+        <Labels Text="برچسب ها">
+          <LabelView Text="نماي برچسب:"/>
+          <Pattern Text="نقش:"/>
+        </Labels>
+        <Markers Text="نشان ها">
+          <Style Text="سبك:"/>
+          <Size Text="اندازه:"/>
+          <Step Text="پله:"/>
+          <Color Text="رنگ:"/>
+        </Markers>
+      </SeriesEditorControl>
+    </ChartEditor>
+    <ChartGallery Text="گالري">
+      <NewArea Text="ايجاد محوطه نمودار جديد براي اين سري ها"/>
+      <Categories>
+        <BarColumn Text="ميله اي و ستوني"/>
+        <Area Text="مساحت"/>
+        <Line Text="خطي"/>
+        <PointBubble Text="نقطه اي و حبابي"/>
+        <Pie Text="Pie"/>
+        <Circular Text="دايره اي"/>
+        <Financial Text="مالي"/>
+        <PyramidFunnel Text="هرمي و قيفي"/>
+        <Range Text="بازه"/>
+      </Categories>
+      <Series>
+        <Bar Text="ميله اي"/>
+        <StackedBar Text="Stacked Bar"/>
+        <StackedBar100 Text="100% Stacked Bar"/>
+        <Column Text="ستوني"/>
+        <StackedColumn Text="ستوني پشته اي"/>
+        <StackedColumn100 Text="ستوني پشته اي 100%"/>
+        <Area Text="مساحت"/>
+        <SplineArea Text="Spline Area"/>
+        <StackedArea Text="Stacked Area"/>
+        <StackedArea100 Text="100% Stacked Area"/>
+        <Line Text="خطي"/>
+        <FastLine Text="Fast Line"/>
+        <StepLine Text="Step Line"/>
+        <Spline Text="Spline"/>
+        <Bubble Text="حبابي"/>
+        <Point Text="نقطه اي"/>
+        <FastPoint Text="Fast Point"/>
+        <Pie Text="Pie"/>
+        <Doughnut Text="Doughnut"/>
+        <Polar Text="قطبي"/>
+        <Radar Text="رادار"/>
+        <Stock Text="Stock"/>
+        <Candlestick Text="Candlestick"/>
+        <Kagi Text="Kagi"/>
+        <Renko Text="Renko"/>
+        <PointAndFigure Text="Point &amp; Figure"/>
+        <ThreeLineBreak Text="Three Line Break"/>
+        <Pyramid Text="هرمي"/>
+        <Funnel Text="قيفي"/>
+        <Range Text="بازه"/>
+        <SplineRange Text="Spline Range"/>
+        <RangeColumn Text="Range Column"/>
+        <RangeBar Text="Range Bar"/>
+      </Series>
+    </ChartGallery>
+    <CodePageOptions Text="كد صفحه">
+      <EnableVirtualSpace Text="فعال سازي فاصله مجازي"/>
+      <UseSpaces Text="استفاده از فاصله براي پر كردن tabها"/>
+      <AllowOutlining Text="مجوز سرفصل"/>
+      <TabSize Text="اندازه tab:"/>
+    </CodePageOptions>
+    <ConfigureBands Text="پيكره بندي باندها:">
+      <Add Text="افزودن"/>
+      <Delete Text="حذف"/>
+    </ConfigureBands>
+    <Connection Text="ارتباط">
+      <Select Text="انتخاب نوع رابط"/>
+      <AlwaysUse Text="هميشه از اين رابط استفاده شود"/>
+      <LoginPrompt Text="نمايش صفحه ورود"/>
+      <Test Text="بررسي ارتباط"/>
+      <TestSuccesful Text="ارتباط با موفقيت برقرار شد."/>
+    </Connection>
+    <CustomLabel Text="برچسب سفارشي">
+      <Name Text="نام:"/>
+      <Paper Text="كاغذ"/>
+      <Landscape Text="Landscape"/>
+      <PaperWidth Text="عرض صفحه:"/>
+      <PaperHeight Text="ارتفاع صفحه:"/>
+      <LeftMargin Text="حاشيه چپ:"/>
+      <TopMargin Text="حاشيه بالا:"/>
+      <Label Text="پارامترهاي برچسب"/>
+      <LabelWidth Text="عرض برچسب:"/>
+      <LabelHeight Text="ارتفاع برچسب:"/>
+      <RowGap Text="فاصله سطر:"/>
+      <ColumnGap Text="فاصله ستون:"/>
+      <Warning Text="برچسب ها در صفحه جا نمي شوند!"/>
+    </CustomLabel>
+    <DataBandEditor Text="ويرايش باند داده">
+      <DataSource Text="منبع داده"/>
+      <NoData Text="منابع داده موجود نيستند.&#13;&#10;&#13;&#10;به منوي &quot;داده|انتخاب داده هاي گزارش...&quot; مراجعه نماييد، يا منبع داده جديدي را با استفاده از  &quot;داده|منبع داده جديد...&quot; ايجاد نماييد."/>
+      <Sort Text="ترتيب"/>
+      <SortBy Text="مرتب سازي بر اساس"/>
+      <ThenBy Text="سپس"/>
+      <Ascending Text="صعودي"/>
+      <Descending Text="نزولي"/>
+      <Filter Text="فيلتر"/>
+      <Expression Text="عبارت فيلتر:"/>
+    </DataBandEditor>
+    <DataWizard Text="گام به گام داده">
+      <Page1 Text="انتخاب بانك اطلاعاتي"/>
+      <WhichData Text="گزارش شما براي ارتباط با بانك اطلاعاتي بايد از كدام ارتباط استفاده نمايد؟"/>
+      <Hint Text="از ليست ارتباط هاي قبلي يكي را انتخاب كنيدو يا روي دكمه &quot;ارتباط جديد...&quot; براي ايجاد ارتباط كليك كنيد."/>
+      <NewConnection Text="ارتباط جديد..."/>
+      <EditConnection Text="ويرايش ارتباط..."/>
+      <ConnectionName Text="نام ارتباط را وارد نماييد:"/>
+      <ConnectionString Text="رشته ارتباط"/>
+      <Page2 Text="انتخاب جداول"/>
+      <WhichTables Text="از كدام جدول ها در گزارش خود استفاده مي كنيد؟"/>
+      <Wait Text="بازخواني اطلاعات بانك اطلاعاتي"/>
+      <SortTables Text="مرتب سازي جداول"/>
+      <AddQuery Text="افزودن SQL query..."/>
+    </DataWizard>
+    <DialogPageOptions Text="فرم پنجره"/>
+    <Exception Text="استثنا">
+      <Hint Text="در گزارش شما استثنا زير رخ داد:"/>
+      <Stack Text="رديابي Stack:"/>
+      <Copy Text="رونوشت به clipboard"/>
+    </Exception>
+    <ExpressionEditor Text="ويرايش عبارت"/>
+    <Fill Text="ويرايشگر Fill">
+      <Solid Text="Solid"/>
+      <LinearGradient Text="طيف خطي"/>
+      <PathGradient Text="Path gradient"/>
+      <Hatch Text="Hatch"/>
+      <Glass Text="Glass"/>
+      <Colors Text="رنگ"/>
+      <Color Text="رنگ"/>
+      <StartColor Text="شروع"/>
+      <EndColor Text="پايان"/>
+      <Options Text="تنظيمات"/>
+      <Focus Text="Focus"/>
+      <Contrast Text="Contrast"/>
+      <Angle Text="زاويه"/>
+      <CenterColor Text="وسط"/>
+      <EdgeColor Text="لبه"/>
+      <Shape Text="شكل"/>
+      <Ellipse Text="بيضي"/>
+      <Rectangle Text="مستطيل"/>
+      <ForeColor Text="پيش"/>
+      <BackColor Text="پس"/>
+      <Style Text="سبك"/>
+      <Blend Text="Blend"/>
+      <GlassHatch Text="نمايش hatch"/>
+    </Fill>
+    <FormatEditor Text="انتخاب قالب">
+      <Expression Text="عبارت:"/>
+      <General Text="عمومي"/>
+      <Number Text="اعداد"/>
+      <Currency Text="پول"/>
+      <Date Text="تاريخ"/>
+      <Time Text="ساعت"/>
+      <Percent Text="درصد"/>
+      <Boolean Text="Boolean"/>
+      <Custom Text="سفارشي"/>
+      <UseLocale Text="استفاده از تنظيمات محلي"/>
+      <DecimalDigits Text="ارقام پس از مميز:"/>
+      <DecimalSeparator Text="جداساز اعشار(مميز):"/>
+      <GroupSeparator Text="جداساز گروه:"/>
+      <PositivePattern Text="الگوي مثبت:"/>
+      <NegativePattern Text="الگوي منفي:"/>
+      <CurrencySymbol Text="علامت پول:"/>
+      <PercentSymbol Text="علامت درصد:"/>
+      <FalseText Text="متن مقدار نادرست:"/>
+      <TrueText Text="متن مقدار درست:"/>
+    </FormatEditor>
+    <GridControlColumnsEditor Text="ويرايش ستون ها">
+      <Columns Text="ستون ها"/>
+      <Properties Text="ويژگي ها"/>
+      <Add Text="افزودن"/>
+      <Remove Text="حذف"/>
+      <AddAll Text="افزودن همه"/>
+    </GridControlColumnsEditor>
+    <GroupBandEditor Text="ويرايش گروه">
+      <Condition Text="شرط گروه"/>
+      <Hint Text="انتخاب ستون داده يا نوع يك عبارت:"/>
+      <Settings Text="تنظيمات"/>
+      <Sort Text="ترتيب:"/>
+      <NoSort Text="بدون ترتيب"/>
+      <Ascending Text="صعودي"/>
+      <Descending Text="نزولي"/>
+    </GroupBandEditor>
+    <GroupExpert Text="Group Expert">
+      <Condition Text="شرط گروه"/>
+      <Hint Text=" براي ايجاد گروه جديد ستون داده يا نوع يك عبارت را انتخاب كنيد، سپس بر دكمه &quot;افزودن&quot; كليك كنيد"/>
+      <Add Text="افزودن"/>
+      <Groups Text="گروه ها"/>
+      <Edit Text="ويرايش..."/>
+      <Delete Text="حذف"/>
+    </GroupExpert>
+    <HighlightEditor Text="شرايط Highlight">
+      <Conditions Text="شرط ها"/>
+      <Add Text="افزودن"/>
+      <Delete Text="حذف"/>
+      <Edit Text="ويرايش"/>
+      <Style Text="سبك"/>
+      <Fill Text="Fill"/>
+      <TextColor Text="رنگ متن"/>
+      <Font Text="قلم"/>
+      <Visible Text="نمايش"/>
+    </HighlightEditor>
+    <HyperlinkEditor Text="ويرايش Hyperlink">
+      <Url Text="URL"/>
+      <PageNumber Text="شماره صفحه"/>
+      <Bookmark Text="Bookmark"/>
+      <Report Text="گزارش"/>
+      <ReportPage Text="صفحه گزارش"/>
+      <Custom Text="سفارشي"/>
+      <UrlValue Text="نشاني را تعيين كنيد (نمونه: http://www.url.com):"/>
+      <UrlExpression Text="يا عبارتي كه نشاني را ايجاد مي كند تعيين كنيد:"/>
+      <PageNumberValue Text="تعيين شماره صفحه:"/>
+      <PageNumberExpression Text="يا عبارتي كه شماره صفحه را بر مي گرداند وارد نماييد:"/>
+      <BookmarkValue Text="نام چوب الف را تعيين كنيد:"/>
+      <BookmarkExpression Text="يا عبارتي كه نام چوب الف را تعيين مي كند وارد نماييد:"/>
+      <ReportName Text="نام گزارش:"/>
+      <ParameterName Text="پارامتر گزارش:"/>
+      <ParameterValue Text="مقدار پارامتر را تعيين كنيد:"/>
+      <ParameterExpression Text="يا عبارتي كه مقدار پارامتر را بر مي گرداند وارد نماييد:"/>
+      <PageName Text="صفحه گزارش:"/>
+      <CustomValue Text="مقدار لينك را تعيين كنيد:"/>
+      <CustomExpression Text="يا عبارتي كه مقدار لينك را بر مي گرداند تعيين كنيد:"/>
+      <Hint Text="در صورتي كه روي لينك در پنجره پيش نمايش كليك كنيد:"/>
+      <HintUrl Text="نشاني اي كه بايد باز شود را تعيين كنيد."/>
+      <HintPageNumber Text="شما به صفحه تعيين شده مي رويد."/>
+      <HintBookmark Text="شما به شيئي كه شامل چوب الف تعيين شده مي باشد مي رويد."/>
+      <HintReport Text="گزارش تعيين شده در صفحه پيش نمايش جداگانه اي باز خواهد شد."/>
+      <HintReportPage Text="صفحه تعيين شده در پنجره پيش نمايش جديدي توليد خواهد شد."/>
+      <HintCustom Text="براي تعريف عمليات سفارشي بايد رويداد &quot;Click&quot; را بسازيد."/>
+      <ModifyAppearance Text="تغيير نحوه نمايش شيئ به گونه اي كه نشان دهنده قابل كليك بودن باشد"/>
+    </HyperlinkEditor>
+    <LabelWizard Text="گام به گام Label">
+      <Hint Text="يكي از برچسب ها از پيش تعريف شده را انتخاب كنيد، يا روي &quot;برچسب سفارشي...&quot; كليك كنيد"/>
+      <Label Text="برچسب"/>
+      <Manufacturer Text="توليد كننده:"/>
+      <Product Text="محصول:"/>
+      <Parameters Text="پارامتر ها"/>
+      <Size Text="اندازه:"/>
+      <PaperSize Text="ابعاد صفحه:"/>
+      <Rows Text="رديف ها:"/>
+      <Columns Text="ستون ها:"/>
+      <CustomLabel Text="برچسب سفارشي..."/>
+      <Custom Text="سفارشي"/>
+      <Delete Text="حذف"/>
+    </LabelWizard>
+    <PageSetup Text="تنظيم صفحه">
+      <Paper Text="كاغذ"/>
+      <Custom Text="سفارشي"/>
+      <Width Text="عرض:"/>
+      <Height Text="ارتفاع:"/>
+      <Orientation Text="جهت:"/>
+      <Portrait Text="ايستاده"/>
+      <Landscape Text="افقي"/>
+      <Margins Text="حاشيه ها"/>
+      <Left Text="چپ:"/>
+      <Top Text="بالا:"/>
+      <Right Text="راست:"/>
+      <Bottom Text="پايين:"/>
+      <MirrorMargins Text="محاسبه آينه وار حاشيه در صفحه هاي زوج"/>
+      <Source Text="منبع"/>
+      <FirstPage Text="اولين صفحه:"/>
+      <OtherPages Text="ديگر صفحات:"/>
+      <Columns Text="ستون ها"/>
+      <Count Text="تعداد:"/>
+      <ColumnWidth Text="عرض:"/>
+      <Positions Text="موقعيت:"/>
+      <Other Text="موارد ديگر"/>
+      <Duplex Text="دولا:"/>
+      <DupDefault Text="پيش فرض"/>
+      <DupSimplex Text="ساده"/>
+      <DupVertical Text="عمودي"/>
+      <DupHorizontal Text="افقي"/>
+      <EditWatermark Text="ويرايش watermark..."/>
+      <ExtraWidth Text="عرض افزوده طرح"/>
+    </PageSetup>
+    <PictureEditor Text="ويرايش تصوير">
+      <Picture Text="تصوير"/>
+      <Load Text="بارگذاري"/>
+      <Paste Text="چسباندن"/>
+      <Clear Text="پاك"/>
+      <DataColumn Text="ستون داده"/>
+      <FileName Text="نام فايل"/>
+      <Url Text="Hyperlink"/>
+      <FileHint1 Text="نام فايل:"/>
+      <FileHint2 Text="توجه: شما بايد اين فايل را همراه با گزارش منتشر كنيد."/>
+      <UrlHint Text="Hyperlink:"/>
+    </PictureEditor>
+    <PluginsOptions Text="افزونه ها">
+      <Hint Text="فهرست افزونه هاي نصب شده ي FastReport:"/>
+      <Add Text="افزودن"/>
+      <Remove Text="حذف"/>
+      <Note Text="توجه: تغييرات پس از اجراي مجدد FastReport اعمال خواهند شد."/>
+    </PluginsOptions>
+    <PreviewPageSetup>
+      <Apply Text="اعمال در تمام صفحات و توليد مجدد گزارش"/>
+    </PreviewPageSetup>
+    <PreviewSearch Text="جستجو"/>
+    <PrinterSetup Text="چاپ">
+      <PrinterSetup Text="تنظيمات چاپگر"/>
+      <Printer Text="چاپگر"/>
+      <SavePrinter Text="ثبت اين چاپگر در فايل گزارش"/>
+      <Settings Text="تنظيمات..."/>
+      <PrintToFile Text="چاپ در فايل"/>
+      <PageRange Text="محدوده صفحه"/>
+      <All Text="همه"/>
+      <Current Text="صفحه جاري"/>
+      <Numbers Text="صفحه هاي:"/>
+      <Hint Text="شماره صفحه ها يا محدوده ها را به صورت جدا شده با ويرگول وارد نماييد. براي مثال: 1,3,5-12"/>
+      <Copies Text="رونوشت"/>
+      <Count Text="تعداد:"/>
+      <Collate Text="Collate"/>
+      <Other Text="ديگر موارد"/>
+      <OddEven Text="چاپ:"/>
+      <AllPages Text="تمام صفحه ها"/>
+      <OddPages Text="صفحه هاي فرد"/>
+      <EvenPages Text="صفحه هاي زوج"/>
+      <Order Text="ترتيب:"/>
+      <OrderDirect Text="مستقيم (1-9)"/>
+      <OrderReverse Text="معكوس  (9-1)"/>
+      <Duplex Text="دو لا:"/>
+      <Source Text="منبع:"/>
+      <PrintMode Text="حالت چاپ"/>
+      <PrintModeDefault Text="پيش فرض"/>
+      <PrintModeSplit Text="جدا سازي صفحه هاي بزرگ"/>
+      <PrintModeScale Text="مقياس"/>
+      <PrintOnSheet Text="Print on sheet:"/>
+      <PagesOnSheet Text="Pages on sheet:"/>
+      <PagesOnSheet1 Text="1 صفحه"/>
+      <PagesOnSheet2 Text="2 صفحه"/>
+      <PagesOnSheet4 Text="4 صفحه"/>
+      <PagesOnSheet8 Text="8 صفحه"/>
+      <Print Text="چاپ"/>
+      <Error Text="محدوده صفحه نا معتبر است."/>
+    </PrinterSetup>
+    <QueryWizard Text="گام به گام Query">
+      <Page1 Text="انتخاب نام"/>
+      <SetName Text="نامي را براي شيئ query انتخاب نماييد."/>
+      <NameHint Text="اين نام در پنجره &quot;داده&quot; نمايش مي يابد."/>
+      <Page2 Text="عبارت SQL را وارد نماييد"/>
+      <WhatData Text="چه داده هايي توسط query برگردانده مي شوند؟"/>
+      <TypeSql Text="عبارت SQL را تايپ كنيد و يا از Query Builder براي ايجاد آن استفاده نماييد."/>
+      <QueryBuilder Text="Query Builder..."/>
+      <Page3 Text="تعريف پارامترها"/>
+      <Page4 Text="تعريف ستون ها"/>
+      <Refresh Text="بازخواني ستون ها"/>
+      <AddColumn Text="افزودن ستون محاسبه شده"/>
+      <AddParameter Text="افزودن پارامتر"/>
+      <Delete Text="حذف"/>
+    </QueryWizard>
+    <RelationEditor Text="ويرايش رابطه">
+      <ParentTable Text="جدول والد:"/>
+      <ChildTable Text="جدول فرزند:"/>
+      <Parent Text="والد"/>
+      <Child Text="فرزند"/>
+      <Columns Text="ستون ها:"/>
+      <Error Text="تعداد ستون هاي والد و فرزند سازگار نيست"/>
+    </RelationEditor>
+    <ReportData Text="انتخاب داده هاي گزارش">
+      <Hint Text="منبع داده و فيلدهاي مورد استفاده در گزارش را انتخاب نماييد:"/>
+      <Aliases Text="نمايش مستعار ها"/>
+    </ReportData>
+    <ReportOptions Text="تنظيمات گزارش">
+      <General Text="عمومي"/>
+      <Description Text="شرح"/>
+      <Script Text="Script"/>
+      <Security Text="امنيت"/>
+      <Inheritance Text="ارث بري"/>
+      <Name Text="نام:"/>
+      <Author Text="نويسنده:"/>
+      <Version Text="نسخه:"/>
+      <Description1 Text="شرح:"/>
+      <Picture Text="تصوير:"/>
+      <SavePreviewPicture Text="ثبت تصوير پيش نمايش"/>
+      <Load Text="بارگذاري..."/>
+      <Clear Text="پاك"/>
+      <Created Text="ساخته شده:"/>
+      <Modified Text="تغيير:"/>
+      <Language Text="زبان Script:"/>
+      <Note Text="توجه: اگر زبان را تغيير دهيد، همه اسكريپت ها حذف خواهند شد!"/>
+      <RefAssemblies Text="Referenced assemblies:"/>
+      <Add Text="افزودن..."/>
+      <Password Text="گذرواژه:"/>
+      <RetypePassword Text="تكرار گذارواژه:"/>
+      <Inherited Text="اين گزارش از گزارش پايه ارث برده است:"/>
+      <NotInherited Text="اين گزارش مستقل است."/>
+      <Choose Text="انتخاب گزينه:"/>
+      <DontChange Text="بدون تغيير"/>
+      <Detach Text="جدا سازي از گزارش والد"/>
+      <Inherit Text="ارث بري از گزارش:"/>
+      <Browse Text="پيمايش..."/>
+      <DoublePass Text="دوبار گذر"/>
+      <Compress Text="فايل گزارش فشرده"/>
+      <UseFileCache Text="استفاده از فايل مخزن موقت"/>
+      <ConvertNulls Text="تبديل مقادير null"/>
+      <TextQuality Text="كيفيت متن:"/>
+      <SmoothGraphics Text="Smooth graphics"/>
+      <QualityDefault Text="پيش فرض"/>
+      <QualityRegular Text="Regular"/>
+      <QualityClearType Text="ClearType"/>
+      <QualityAntiAlias Text="AntiAlias"/>
+      <PasswordError Text="گذرواژه ها تطابق ندارند. لطفا دوباره تلاش كنيد."/>
+      <Recipients Text="گيرندگان (براي نمونه, john@url.com):"/>
+      <Subject Text="موضوع:"/>
+      <Message Text="پيام:"/>
+    </ReportOptions>
+    <ReportPageOptions Text="صفحه گزارش">
+      <Units Text="واحدهاي صفحه"/>
+      <Millimeters Text="ميلي متر"/>
+      <Centimeters Text="سانتي متر"/>
+      <Inches Text="اينچ"/>
+      <HundrethsOfInch Text="درصد اينچ"/>
+      <Grid Text="Grid"/>
+      <ShowGrid Text="نمايش grid"/>
+      <SnapToGrid Text="Snap to grid"/>
+      <DottedGrid Text="Dotted grid"/>
+      <Size Text="Snap size:"/>
+      <Markers Text="Object markers"/>
+      <Rectangle Text="مستطيل"/>
+      <Corners Text="گوشه ها"/>
+      <BandView Text="نمايش باندها"/>
+      <Structure Text="ساختار"/>
+      <Classic Text="سنتي"/>
+      <EditAfterInsert Text="ويرايش پس از درج"/>
+    </ReportPageOptions>
+    <RichTextEditor Text="ويرايشگر RichText">
+      <Open Text="باز"/>
+      <Save Text="ذخيره"/>
+      <Subscript Text="Subscript"/>
+      <Superscript Text="Superscript"/>
+      <Bullets Text="Bullets"/>
+      <Confirm Text="متن تغيير كرده است، تغييرات ذخيره شود؟"/>
+    </RichTextEditor>
+    <SearchReplace Text="جستجو و جايگزيني">
+      <Find Text="جستجو:"/>
+      <Replace Text="جايگزيني با:"/>
+      <Options Text="تنظيمات جستجو"/>
+      <MatchCase Text="تطابق حروف بزرگ و كوچك"/>
+      <MatchWholeWord Text="تطابق كامل كلمه"/>
+      <FindNext Text="جستجو بعدي"/>
+      <ReplaceBtn Text="جايگزين"/>
+      <ReplaceAll Text="جايگزيني همه"/>
+      <NotFound Text="متن مورد نظر يافت نشد"/>
+      <NoMoreFound Text="مورد ديگر پيدا نشد."/>
+    </SearchReplace>
+    <SelectDataSource Text="انتخاب منبع داده">
+      <Hint Text="يك يا چند منبع داده براي استفاده در گزارش انتخاب كنيد."/>
+      <AvailableDs Text="منابع داده موجود:"/>
+      <SelectedDs Text="منابع داده انتخاب شده:"/>
+      <ProjectDs Text="Project datasets"/>
+      <OtherDs Text="منابع داده ديگر"/>
+    </SelectDataSource>
+    <SelectLanguage Text="انتخاب زبان">
+      <SelectLanguage Text="زبان مورد نظرتان را از ليست زير انتخاب نماييد:"/>
+      <Auto Text="خودكار"/>
+      <Folder Text="شاخه فايل هاي زبان:"/>
+      <SelectFolder Text="مسيري كه فايل هاي زبان در آن قرار دارند را انتخاب كنيد (*.frl)."/>
+    </SelectLanguage>
+    <StandardReportWizard Text="گام به گام گزارش استاندارد">
+      <GroupsPage Text="ايجاد گروه ها"/>
+      <CreateGroups Text="ايجاد گروه ها (اختياري)."/>
+      <Groups Text="گروه ها:"/>
+      <LayoutPage Text="تعريف چيدمان"/>
+      <DefineLayout Text="تعيين جهت كاغذ و چيدمان داده هاي گزارش."/>
+      <Orientation Text="جهت كاغذ"/>
+      <Portrait Text="عمودي"/>
+      <Landscape Text="افقي"/>
+      <Layout Text="چيدمان"/>
+      <Tabular Text="جدولي"/>
+      <Columnar Text="ستوني"/>
+      <StylePage Text="انتخاب سبك"/>
+      <Styles Text="سبك گزارش را انتخاب كنيد."/>
+    </StandardReportWizard>
+    <StringCollectionEditor Text="ويرايش مجموعه رشته ها"/>
+    <Style Text="ويرايش سبك">
+      <Styles Text="سبك"/>
+      <Add Text="افزودن"/>
+      <Delete Text="حذف"/>
+      <Edit Text="ويرايش"/>
+      <Load Text="بارگذاري..."/>
+      <Save Text="ذخيره..."/>
+      <Settings Text="تنظيمات سبك"/>
+      <Border Text="لبه"/>
+      <Fill Text="Fill"/>
+      <Font Text="قلم"/>
+      <TextColor Text="رنگ متن"/>
+      <StyleName Text="Style"/>
+    </Style>
+    <TextEditor Text="ويرايش متن">
+      <WordWrap Text="Word wrap"/>
+    </TextEditor>
+    <TotalEditor Text="ويرايش سر جمع">
+      <TotalName Text="نام سرجمع:"/>
+      <Total Text="سرجمع"/>
+      <Function Text="تابع"/>
+      <DataColumnOrExpression Text="ستون داده يا عبارت:"/>
+      <DataBand Text="ارزيابي در هر رديف باند:"/>
+      <EvaluateCondition Text="ارزيابي به شرط:"/>
+      <PrintOn Text="چاپ در باند:"/>
+      <Options Text="تنظيمات"/>
+      <ResetAfterPrint Text="بازنشاني پس از چاپ"/>
+      <ResetRepeated Text="بازنشاني در صورت تكرار باند"/>
+      <InvisibleRows Text="رديف هاي مخفي محاسبه شوند"/>
+      <Sum Text="مجموع"/>
+      <Min Text="كمينه"/>
+      <Max Text="بيشينه"/>
+      <Avg Text="متوسط"/>
+      <Count Text="تعداد"/>
+    </TotalEditor>
+    <UIOptions Text="رابط كاربر">
+      <Appearance Text="ظاهر"/>
+      <AppearanceStyles Text="Visual Studio 2005,Office 2003,Office 2007 (blue),Office 2007 (silver),Office 2007 (black),Vista Glass"/>
+    </UIOptions>
+    <WatermarkEditor Text="Watermark">
+      <Enabled Text="فعال"/>
+      <Text Text="متن"/>
+      <TextItems Text="محرمانه,رونوشت,اصلي,نمونه,فوري"/>
+      <Rotation Text="چرخش"/>
+      <Horizontal Text="افقي"/>
+      <Vertical Text="عمودي"/>
+      <ForwardDiagonal Text="مايل به بالا"/>
+      <BackwardDiagonal Text="مايل به پايين"/>
+      <Font Text="قلم"/>
+      <Color Text="رنگ"/>
+      <Picture Text="تصوير"/>
+      <Load Text="بارگذاري"/>
+      <Clear Text="حذف"/>
+      <Size Text="اندازه"/>
+      <Normal Text="معمولي"/>
+      <Center Text="وسط"/>
+      <Stretch Text="منعطف"/>
+      <Zoom Text="زوم"/>
+      <Tile Text="كاشي"/>
+      <Transparency Text="شفافيت"/>
+      <Zorder Text="ترتيب عمقي"/>
+      <TextOnTop Text="متن بالا"/>
+      <PictureOnTop Text="تصوير بالا"/>
+      <ApplyToAll Text="اعمال در تمام صفحات"/>
+    </WatermarkEditor>
+  </Forms>
+  <ConnectionEditors>
+    <Common>
+      <Server Text="نام سرور:"/>
+      <ServerLogon Text="ورود به سرور"/>
+      <UserName Text="نام كاربري:"/>
+      <Password Text="گذرواژه:"/>
+      <Database Text="ارتباط با بانك اطلاعاتي"/>
+      <DatabaseName Text="نام بانك اطلاعاتي:"/>
+      <DatabaseFile Text="فايل بانك اطلاعاتي:"/>
+    </Common>
+    <MsSql>
+      <UseWindows Text="استفاده از شناسايي ويندوز"/>
+      <UseSql Text="استفاده از شناسايي SQL Server"/>
+      <SavePassword Text="ذخيره سازي گذرواژه"/>
+    </MsSql>
+    <OleDb>
+      <ConnectionString Text="رشته ارتباط:"/>
+      <Build Text="ساخت..."/>
+    </OleDb>
+    <Odbc>
+      <DataSource Text="منبع داده"/>
+      <DsName Text="استفاده از نام منبع داده كاربر يا سيستم:"/>
+      <ConnString Text="استفاده از رشته ارتباطي:"/>
+      <Login Text="ورود"/>
+    </Odbc>
+    <Xml>
+      <Xsd Text="فايل Schema:"/>
+      <Xml Text="فايل داده:"/>
+    </Xml>
+  </ConnectionEditors>
+  <ComponentMenu>
+    <Component>
+      <Edit Text="ويرايش..."/>
+    </Component>
+    <ReportComponent>
+      <CanGrow Text="امكان افزايش"/>
+      <CanShrink Text="امكان كاهش"/>
+      <GrowToBottom Text="افزايش تا پايين"/>
+      <Hyperlink Text="ابرپيوند..."/>
+    </ReportComponent>
+    <BreakableComponent>
+      <CanBreak Text="امكان بريدن"/>
+    </BreakableComponent>
+    <Band>
+      <AddChildBand Text="افزودن باند فرزند"/>
+      <StartNewPage Text="ايجاد صفحه جديد"/>
+      <PrintOnBottom Text="چاپ در پايين"/>
+    </Band>
+    <DataBand>
+      <AddDetailDataBand Text="افزودن باند داده جزييات"/>
+      <KeepTogether Text="نگهداري در كنار هم"/>
+      <KeepDetail Text="نگهداشتن جزييات"/>
+    </DataBand>
+    <HeaderBand>
+      <RepeatOnEveryPage Text="تكرار در تمام صفحات"/>
+      <KeepWithData Text="نگهداشتن در كنار داده ها"/>
+    </HeaderBand>
+    <GroupHeaderBand>
+      <ResetPageNumber Text="بازنشاني شماره صفحه"/>
+    </GroupHeaderBand>
+    <ChildBand>
+      <FillUnusedSpace Text="پر كردن فضاي خالي"/>
+      <CompleteToNRows Text="كامل نمودن تا سطر:"/>
+    </ChildBand>
+    <PictureObject>
+      <SizeMode Text="حالت اندازه"/>
+      <AutoSize Text="اندازه خودكار"/>
+      <CenterImage Text="وسط تصوير"/>
+      <Normal Text="معمولي"/>
+      <StretchImage Text="تصوير كشيده"/>
+      <Zoom Text="زوم"/>
+    </PictureObject>
+    <TextObject>
+      <Format Text="قالب..."/>
+      <Clear Text="پاك"/>
+      <AutoWidth Text="عرض خودكار"/>
+      <WordWrap Text="چيدن كلمات"/>
+      <AllowExpressions Text="مجوز عبارات"/>
+    </TextObject>
+    <SubreportObject>
+      <PrintOnParent Text="چاپ در والد"/>
+    </SubreportObject>
+    <TableObject>
+      <RepeatHeaders Text="تكرار سرصفحه ها"/>
+    </TableObject>
+    <TableRow>
+      <InsertAbove Text="درج سطر در بالا"/>
+      <InsertBelow Text="درج سطر در پايين"/>
+      <AutoSize Text="اندازه خودكار"/>
+    </TableRow>
+    <TableColumn>
+      <InsertToLeft Text="درج ستون در چپ"/>
+      <InsertToRight Text="درج ستون در راست"/>
+    </TableColumn>
+    <TableCell>
+      <Join Text="متصل نمودن خانه ها"/>
+      <Split Text="جداسازي خانه ها"/>
+    </TableCell>
+    <MatrixObject>
+      <CellsSideBySide Text="خانه ها پهلو-به-پهلو"/>
+      <ShowTitle Text="نمايش عنوان"/>
+      <Style Text="سبك"/>
+    </MatrixObject>
+    <MatrixCell>
+      <Totals Text="سرجمع ها"/>
+      <Function Text="تابع"/>
+      <SuppressTotals Text="Suppress Totals"/>
+    </MatrixCell>
+    <GridControl>
+      <EditColumns Text="ويرايش ستون ها..."/>
+    </GridControl>
+    <Barcode>
+      <BarcodeType Text="نوع باركد"/>
+      <AutoSize Text="عرض خودكار"/>
+      <AutoEncode Text="رمزگذاري خودكار"/>
+      <CalcChecksum Text="محاسبه Checksum"/>
+      <ShowText Text="نمايش متن"/>
+    </Barcode>
+    <ZipCodeObject>
+      <ShowMarkers Text="نمايش نشان ها"/>
+      <ShowGrid Text="نمايش Grid"/>
+    </ZipCodeObject>
+  </ComponentMenu>
+  <ComponentsMisc>
+    <Table>
+      <CalcBounds Text="محاسبه محدوده ها..."/>
+    </Table>
+    <Matrix>
+      <FillData Text="پر نمودن ماتريس..."/>
+      <NewColumn Text="براي ايجاد ستون جديد&#13;&#10;داده ها را به اينجا بكشيد"/>
+      <NewRow Text="براي ايجاد رديف جديد&#13;&#10;داده ها را به اينجا بكشيد"/>
+      <NewCell Text="براي ايجاد سلول جديد&#13;&#10;داده ها را به اينجا بكشيد"/>
+      <Total Text="سرجمع"/>
+      <Title Text="عنوان"/>
+      <White Text="سفيد"/>
+      <Gray Text="خاكستري"/>
+      <Orange Text="نارنجي"/>
+      <Green Text="سبز"/>
+      <GreenOrange Text="سبز و نارنجي"/>
+      <Blue Text="آبي"/>
+      <BlueWhite Text="آبي و سفيد"/>
+      <GrayOrange Text="خاكستري و نارنجي"/>
+      <BlueOrange Text="آبي و نارنجي"/>
+      <OrangeWhite Text="نارنجي و سفيد"/>
+    </Matrix>
+  </ComponentsMisc>
+  <Wizards>
+    <BlankReport Text="گزارش خالي"/>
+    <StandardReport Text="گام به گام گزارش استاندارد"/>
+    <InheritedReport Text="گزارش موروثي"/>
+    <Label Text="گام به گام برچسب"/>
+    <NewDataSource Text="منبع داده جديد"/>
+    <NewPage Text="صفحه گزارش جديد"/>
+    <NewDialog Text="فرم ديالوگ جديد"/>
+  </Wizards>
+  <Export>
+    <Misc>
+      <Performance Text="صدور در مدت {0} ميلي ثانيه"/>
+      <OrderByCells Text="مرتب سازي براساس سلول ها"/>
+      <AnalyzeObjects Text="تحليل اشيا"/>
+      <SavePage Text="ذخيره سازي صفحه"/>
+      <Wysiwyg Text="ويزيويگ"/>
+      <PageBreaks Text="صفحه انداز"/>
+      <OpenAfterExport Text="باز نمودن پس از صدور"/>
+      <Pictures Text="تصاوير"/>
+      <Options Text="تنظيمات"/>
+      <None Text="هيچكدام"/>
+      <Metafile Text="متافايل"/>
+      <SaveFile Text="ذخيره سازي فايل"/>
+    </Misc>
+    <Image Text="صدور به تصوير">
+      <File Text="فايل تصويري"/>
+      <ImageFormat Text="قالب:"/>
+      <Resolution Text="تفكيك پذيري:"/>
+      <Quality Text="كيفيت Jpeg:"/>
+      <SeparateFiles Text="فايل هاي جداگانه براي هر صفحه"/>
+      <MultiFrame Text="TIFF با قاب چندگانه"/>
+      <Monochrome Text="TIFF تك رنگ"/>
+      <Bmp Text="تصوير Bitmap"/>
+      <Png Text="تصوير PNG"/>
+      <Jpeg Text="تصوير JPG"/>
+      <Gif Text="تصوير GIF"/>
+      <Tiff Text="تصوير TIFF"/>
+      <Metafile Text="Windows metafile"/>
+    </Image>
+    <RichText Text="صدور به Rich Text">
+      <File Text="فايل Rich Text"/>
+    </RichText>
+    <Text Text="صدور به چاپگر متني/ماتريسي">
+      <File Text="چاپگر متني/ماتريسي"/>
+      <EmptyLines Text="خطوط خالي"/>
+      <DataOnly Text="فقط داده ها"/>
+      <Frames Text="قاب ها"/>
+      <FramesNone Text="هيچ"/>
+      <FramesText Text="متن"/>
+      <FramesGraphic Text="گرافيك"/>
+      <Codepage Text="Codepage"/>
+      <Default Text="پيش فرض"/>
+      <Unicode Text="يونيكد"/>
+      <OEM Text="OEM"/>
+      <ScaleX Text="مقياس X:"/>
+      <ScaleY Text="مقياس Y:"/>
+      <AutoScale Text="مقياس خودكار"/>
+      <PrinterType Text="نوع چاپگر"/>
+      <Commands Text="دستورات"/>
+      <PageWidth Text="عرض صفحه:"/>
+      <PageHeight Text="ارتفاع صفحه:"/>
+      <DataLoss Text="امكان حذف شدن داده ها&#13;&#10;لطفا مقياس X/Y را افزايش دهيد"/>
+      <ScaleMessage Text="محاسبه مقياس بهينه"/>
+      <Scale Text="مقياس"/>
+    </Text>
+    <Csv Text="صدور به CSV">
+      <File Text="فايل CSV"/>
+      <Separator Text="جداساز"/>
+      <Codepage Text="Codepage"/>
+      <Default Text="پيش فرض"/>
+      <Unicode Text="يونيكد"/>
+      <OEM Text="OEM"/>
+      <DataOnly Text="فقط داده ها"/>
+    </Csv>
+    <Xml Text="صدور به XML">
+      <File Text="جدول XML (Excel)"/>
+    </Xml>
+    <Odt Text="صدور به Open Office Writer">
+      <File Text="OpenOffice Writer"/>
+    </Odt>
+    <Ods Text="صدور به Open Office Calc">
+      <File Text="OpenOffice Calc"/>
+    </Ods>
+    <Xlsx Text="صدور به Excel 2007">
+      <File Text="فايل Excel 2007"/>
+    </Xlsx>
+    <Pptx Text="صدور به PowerPoint 2007">
+      <File Text="فايل PowerPoint 2007"/>
+    </Pptx>
+    <Pdf Text="صدور به PDF">
+      <File Text="Adobe Acrobat"/>
+      <Export Text="صدور"/>
+      <Compressed Text="فشرده"/>
+      <EmbeddedFonts Text="قلم هاي تعبيه شده"/>
+      <Background Text="زمينه"/>
+      <PrintOptimized Text="چاپ بهينه"/>
+      <Information Text="اطلاعات"/>
+      <DocumentInformation Text="اطلاعات سند"/>
+      <Title Text="عنوان"/>
+      <Author Text="نويسنده"/>
+      <Subject Text="موضوع"/>
+      <Keywords Text="كليدواژه ها"/>
+      <Creator Text="سازنده"/>
+      <Producer Text="توليد كننده"/>
+      <Security Text="امنيت"/>
+      <Authentification Text="تصديق"/>
+      <OwnerPassword Text="گذرواژه مالك"/>
+      <UserPassword Text="گذرواژه كاربر"/>
+      <Permissions Text="دسترسي ها"/>
+      <PrintTheDocument Text="چاپ سند"/>
+      <ModifyTheDocument Text="تغيير سند"/>
+      <CopyOfTextAndGraphics Text="رونوشت از متن و گرافيك"/>
+      <AddOrModifyTextAnnotations Text="افزودن يا ويرايش تحشيه"/>
+      <Viewer Text="نمايشگر"/>
+      <ViewerPreferences Text="تنظمات نمايشگر"/>
+      <HideToolbar Text="عدم نمايش نوار ابزار"/>
+      <HideMenubar Text="عدم نمايش نوار منو"/>
+      <HideWindowUserInterface Text="عدم نمايش پنجره رابط كاربر"/>
+      <FitWindow Text="پنجره هم اندازه"/>
+      <CenterWindow Text="وسط پنجره"/>
+      <PrintScaling Text="مقياس چاپ"/>
+      <PrintAfterOpenOfDocument Text="چاپ پس از باز نمودن سند"/>
+      <Outline Text="رئوس مطالب"/>
+    </Pdf>
+    <Html Text="صدور به HTML">
+      <File Text="فايل HTML"/>
+      <SinglePage Text="تك صفحه"/>
+      <SubFolder Text="زير شاخه"/>
+      <Navigator Text="پيمايش"/>
+      <Total Text="مجموع"/>
+      <First Text="&lt;&lt;"/>
+      <Last Text="&gt;&gt;"/>
+      <Prev Text="&lt;"/>
+      <Next Text="&gt;"/>
+    </Html>
+    <Email Text="ارسال رايانامه">
+      <Email Text="رايانامه"/>
+      <Account Text="حساب"/>
+      <Address Text="نشاني:"/>
+      <Subject Text="موضوع:"/>
+      <Message Text="پيام:"/>
+      <Attachment Text="پيوست:"/>
+      <Settings Text="تنظيمات..."/>
+      <Name Text="نام:"/>
+      <Template Text="الگو:"/>
+      <Host Text="Host:"/>
+      <Port Text="Port:"/>
+      <UserName Text="نام كاربري:"/>
+      <Password Text="گذرواژه:"/>
+      <AddressError Text="نشاني نبايد خالي باشد."/>
+      <HostError Text="Host نبايد خالي باشد."/>
+      <SendingEmail Text="ارسال رايانامه - {0} Kb"/>
+      <EnableSSL Text="فعال سازي SSL"/>
+    </Email>
+  </Export>
+  <Web>
+    <Print Text="چاپ"/>
+    <Export Text="صدور"/>
+    <Zoom Text="زوم"/>
+    <Refresh Text="تازه كردن"/>
+  </Web>
+  <Properties>
+    <Categories>
+      <Appearance Text="نما"/>
+      <Behavior Text="رفتار"/>
+      <Build Text="ساخت"/>
+      <Data Text="داده"/>
+      <Design Text="طراحي"/>
+      <Email Text="رايانامه"/>
+      <Engine Text="موتور"/>
+      <Events Text="رويدادها"/>
+      <Hierarchy Text="سلسله مراتب"/>
+      <Layout Text="چيدمان"/>
+      <Misc Text="متفرقه"/>
+      <Navigation Text="پيمايش"/>
+      <Paper Text="كاغذ"/>
+      <Preview Text="پيش نمايش"/>
+      <Print Text="چاپ"/>
+      <Script Text="اسكريپت"/>
+    </Categories>
+  </Properties>
+</Language>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" >
+
+  <assemblyIdentity name="Tiny.ocx" version="1.0.0.0" type="win32" />
+
+  <file name="Tiny.ocx" >
+
+    <comClass clsid="{0ca5a93d-f6bd-4398-809a-9f767276ef77}" threadingModel="Apartment" tlbid="{df1d4b1e-d56e-4a40-ba98-2cc06080e796}" progid="TINY.TinyCtrl.1" description="Tiny Control" />
+
+    <comClass clsid="{6dc390a4-4de4-46cc-aea6-b36f364ca9b0}" threadingModel="Apartment" tlbid="{df1d4b1e-d56e-4a40-ba98-2cc06080e796}" progid="Tiny.TinyPlusCtrl.1" description="TinyPlusCtrl Class" />
+
+    <typelib tlbid="{df1d4b1e-d56e-4a40-ba98-2cc06080e796}" version="1.0" helpdir="" />
+  </file>
+</assembly>

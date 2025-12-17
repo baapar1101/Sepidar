@@ -1,0 +1,1098 @@
+[General][2025/11/22 06:13:58 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Error in copying FlashUtil10b.exe near executable file to system directory !The file 'C:\Windows\system32\FlashUtil10b.exe' already exists.
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Error in copying Flash10b.ocx near executable file to system directory !The file 'C:\Windows\system32\Flash10b.ocx' already exists.
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] ---------------------------- Start Running Application -----------------------------
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Application.EnableVisualStyles
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Application.SetCompatibleTextRenderingDefault
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Application.ThreadException add handler
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Load' Started
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'ShellLocalSetting.GetInstance' Started
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'ShellLocalSetting.GetInstance' Finished (Duration: 0ms)
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'ShellLocalSetting.Load' Started
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadLocalSetting' Started
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadLocalSetting' Finished (Duration: 0ms)
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'ShellLocalSetting.Load' Finished (Duration: 0ms)
+[General][2025/11/22 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Load' Finished (Duration: 0ms)
+[General][1404/09/01 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadFrameworkMessages' Started
+[General][1404/09/01 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Assembly to load:
+E:\new_sepidar\app\SG.Controls.dll
+E:\new_sepidar\app\SG.Framework.dll
+E:\new_sepidar\app\SG.Framework.FiscalYearManagement.Common.dll
+[General][1404/09/01 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadFrameworkMessages' Finished (Duration: 199/4714ms)
+[General][1404/09/01 06:13:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Show FrmLogin' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'InitComponent' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'InitComponent' Finished (Duration: 105/1479ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Find License' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] LicenseFile 'E:\new_sepidar\app\0051607.License'
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Load License' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Decrypt License' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] OldLicenseHash 42e033ea
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Deserialize License' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Deserialize License' Finished (Duration: 7/084ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Extract Components from License' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Extract Components from License' Finished (Duration: 484/1836ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License CustomerCode:0051607
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License CompanyCount:2
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License MobileDeviceCount:0
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : AddExportTemplate
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ShowDebitCreditNoteInSales
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ShowBillInSales
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ShowBillInInventory
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ShowCheque
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] License Feature : ManagementReport
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Decrypt License' Finished (Duration: 507/3084ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Load License' Finished (Duration: 510/306ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Find License' Finished (Duration: 510/306ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Finished (Duration: 4/9791ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Finished (Duration: 4/9791ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Localize' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Localize' Finished (Duration: 0ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadLoginInfo' Started
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'LoadLoginInfo' Finished (Duration: 48/6347ms)
+[General][1404/09/01 06:14:00 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'GetDbList' Started
+[General][1404/09/01 06:14:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Started
+[General][1404/09/01 06:14:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetConfigurations
+Arguments:
+	Int32 : 0
+
+[General][1404/09/01 06:14:14 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 803 ms
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetConfigurations 918 ms
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetUserConfigurations
+Arguments:
+	 null
+	Int32 : 0
+
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetUserConfigurations 0 ms
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues
+
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues 0 ms
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues
+
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues 0 ms
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'RefreshDbList' Finished (Duration: 1301/4595ms)
+[General][1404/09/01 06:14:15 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'GetDbList' Finished (Duration: 14611/8556ms)
+[General][1404/09/01 06:14:20 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Security.ISecurityService.EnsureUserTableIntegrity
+
+[General][1404/09/01 06:14:20 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Security.Common.IUserBusiness.EnsureUserTableIntegrity
+
+[General][1404/09/01 06:14:21 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Security.Common.IUserBusiness.EnsureUserTableIntegrity 580 ms
+[General][1404/09/01 06:14:21 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Security.ISecurityService.EnsureUserTableIntegrity 580 ms
+[General][1404/09/01 06:14:21 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.Security.Common.DsUser, SG.Framework.Security.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:14:21 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.Security.Common.DsUser, SG.Framework.Security.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 112 ms
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.IFiscalYearService.GetAllFiscalYears
+
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Caching Lookups' Started
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Caching Lookups' Finished (Duration: 166/1186ms)
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 466 ms
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.IFiscalYearService.GetAllFiscalYears 533 ms
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.IFiscalYearService.GetAllFiscalYears
+
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][1404/09/01 06:14:31 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.IFiscalYearService.GetAllFiscalYears 0 ms
+[General][1404/09/01 06:14:32 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Show FrmLogin' Finished (Duration: 32281/1996ms)
+[General][1404/09/01 06:14:32 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Show FrmSplash' Started
+[General][1404/09/01 06:14:32 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Assembly to load:
+E:\new_sepidar\app\SG.Accounting.AccountManagement.Business.dll
+E:\new_sepidar\app\SG.Accounting.AccountManagement.Common.dll
+E:\new_sepidar\app\SG.Accounting.AccountManagement.UI.dll
+E:\new_sepidar\app\SG.Accounting.General.Business.dll
+E:\new_sepidar\app\SG.Accounting.General.Common.dll
+E:\new_sepidar\app\SG.Accounting.General.UI.dll
+E:\new_sepidar\app\SG.Accounting.ReportManagement.Business.dll
+E:\new_sepidar\app\SG.Accounting.ReportManagement.Common.dll
+E:\new_sepidar\app\SG.Accounting.ReportManagement.UI.dll
+E:\new_sepidar\app\SG.Accounting.ShredAccountIntermediate.Business.dll
+E:\new_sepidar\app\SG.Accounting.ShredAccountIntermediate.Common.dll
+E:\new_sepidar\app\SG.Accounting.ShredAccountIntermediate.UI.dll
+E:\new_sepidar\app\SG.Accounting.VoucherManagement.Business.dll
+E:\new_sepidar\app\SG.Accounting.VoucherManagement.Common.dll
+E:\new_sepidar\app\SG.Accounting.VoucherManagement.Controls.dll
+E:\new_sepidar\app\SG.Accounting.VoucherManagement.UI.dll
+E:\new_sepidar\app\SG.Configuration.Business.dll
+E:\new_sepidar\app\SG.Configuration.Common.dll
+E:\new_sepidar\app\SG.Configuration.UI.dll
+E:\new_sepidar\app\SG.Contract.ContractOperation.Business.dll
+E:\new_sepidar\app\SG.Contract.ContractOperation.Common.dll
+E:\new_sepidar\app\SG.Contract.ContractOperation.UI.dll
+E:\new_sepidar\app\SG.Contract.ContractReceiptAndPayment.Business.dll
+E:\new_sepidar\app\SG.Contract.ContractReceiptAndPayment.Common.dll
+E:\new_sepidar\app\SG.Contract.ContractReceiptAndPayment.UI.dll
+E:\new_sepidar\app\SG.Contract.Settings.UI.dll
+E:\new_sepidar\app\SG.Distribution.BasicData.Business.dll
+E:\new_sepidar\app\SG.Distribution.BasicData.Common.dll
+E:\new_sepidar\app\SG.Distribution.BasicData.UI.dll
+E:\new_sepidar\app\SG.Distribution.DistributionOperation.Business.dll
+E:\new_sepidar\app\SG.Distribution.DistributionOperation.Common.dll
+E:\new_sepidar\app\SG.Distribution.DistributionOperation.UI.dll
+E:\new_sepidar\app\SG.Distribution.General.Business.dll
+E:\new_sepidar\app\SG.Distribution.General.Common.dll
+E:\new_sepidar\app\SG.Distribution.General.UI.dll
+E:\new_sepidar\app\SG.Distribution.OrderOperations.Business.dll
+E:\new_sepidar\app\SG.Distribution.OrderOperations.Common.dll
+E:\new_sepidar\app\SG.Distribution.OrderOperations.Controls.dll
+E:\new_sepidar\app\SG.Distribution.OrderOperations.UI.Controllers.dll
+E:\new_sepidar\app\SG.Distribution.OrderOperations.UI.dll
+E:\new_sepidar\app\SG.FixedAsset.AssetManagement.Business.dll
+E:\new_sepidar\app\SG.FixedAsset.AssetManagement.Common.dll
+E:\new_sepidar\app\SG.FixedAsset.AssetManagement.UI.dll
+E:\new_sepidar\app\SG.FixedAsset.BasicData.Business.dll
+E:\new_sepidar\app\SG.FixedAsset.BasicData.Common.dll
+E:\new_sepidar\app\SG.FixedAsset.BasicData.UI.dll
+E:\new_sepidar\app\SG.FixedAsset.General.Business.dll
+E:\new_sepidar\app\SG.FixedAsset.General.Common.dll
+E:\new_sepidar\app\SG.FixedAsset.General.Controls.dll
+E:\new_sepidar\app\SG.FixedAsset.General.UI.dll
+E:\new_sepidar\app\SG.Framework.ApiProvider.Business.dll
+E:\new_sepidar\app\SG.Framework.ApiProvider.Common.dll
+E:\new_sepidar\app\SG.Framework.ApiProvider.UI.dll
+E:\new_sepidar\app\SG.Framework.ExtraInformation.Business.dll
+E:\new_sepidar\app\SG.Framework.ExtraInformation.Common.dll
+E:\new_sepidar\app\SG.Framework.FiscalYearManagement.Business.dll
+E:\new_sepidar\app\SG.Framework.FiscalYearManagement.UI.dll
+E:\new_sepidar\app\SG.Framework.ImportExportManagement.Business.dll
+E:\new_sepidar\app\SG.Framework.ImportExportManagement.Common.dll
+E:\new_sepidar\app\SG.Framework.ImportExportManagement.UI.dll
+E:\new_sepidar\app\SG.Framework.NoteManagement.Business.dll
+E:\new_sepidar\app\SG.Framework.NoteManagement.Common.dll
+E:\new_sepidar\app\SG.Framework.Numbering.Business.dll
+E:\new_sepidar\app\SG.Framework.Numbering.Common.dll
+E:\new_sepidar\app\SG.Framework.Numbering.UI.dll
+E:\new_sepidar\app\SG.Framework.ReportGenerator.Business.dll
+E:\new_sepidar\app\SG.Framework.ReportGenerator.Common.dll
+E:\new_sepidar\app\SG.Framework.ReportGenerator.UI.dll
+E:\new_sepidar\app\SG.Framework.Security.Business.dll
+E:\new_sepidar\app\SG.Framework.Security.Common.dll
+E:\new_sepidar\app\SG.Framework.Security.UI.dll
+E:\new_sepidar\app\SG.Framework.StandardDescription.Business.dll
+E:\new_sepidar\app\SG.Framework.StandardDescription.Common.dll
+E:\new_sepidar\app\SG.General.AveragingCalculations.Common.dll
+E:\new_sepidar\app\SG.General.AveragingCalculations.UI.dll
+E:\new_sepidar\app\SG.General.BackupManagement.Business.dll
+E:\new_sepidar\app\SG.General.BackupManagement.Common.dll
+E:\new_sepidar\app\SG.General.BackupManagement.UI.dll
+E:\new_sepidar\app\SG.General.BasicData.Business.dll
+E:\new_sepidar\app\SG.General.BasicData.Common.dll
+E:\new_sepidar\app\SG.General.BasicData.Control.dll
+E:\new_sepidar\app\SG.General.BasicData.UI.dll
+E:\new_sepidar\app\SG.General.BillIntermediate.Business.dll
+E:\new_sepidar\app\SG.General.BillIntermediate.Common.dll
+E:\new_sepidar\app\SG.General.BillManagement.Business.dll
+E:\new_sepidar\app\SG.General.BillManagement.Common.dll
+E:\new_sepidar\app\SG.General.BillManagement.UI.dll
+E:\new_sepidar\app\SG.General.ClosingOperationIntermediate.Business.dll
+E:\new_sepidar\app\SG.General.ClosingOperationIntermediate.Common.dll
+E:\new_sepidar\app\SG.General.Communication.Business.dll
+E:\new_sepidar\app\SG.General.Communication.Common.dll
+E:\new_sepidar\app\SG.General.Communication.UI.dll
+E:\new_sepidar\app\SG.General.CompanyDashboard.Business.dll
+E:\new_sepidar\app\SG.General.CompanyDashboard.Common.dll
+E:\new_sepidar\app\SG.General.CompanyDashboard.UI.dll
+E:\new_sepidar\app\SG.General.CostCenter.Business.dll
+E:\new_sepidar\app\SG.General.CostCenter.Common.dll
+E:\new_sepidar\app\SG.General.CostCenter.UI.dll
+E:\new_sepidar\app\SG.General.CurrencyManagement.Business.dll
+E:\new_sepidar\app\SG.General.CurrencyManagement.Common.dll
+E:\new_sepidar\app\SG.General.CurrencyManagement.Controls.dll
+E:\new_sepidar\app\SG.General.CurrencyManagement.UI.dll
+E:\new_sepidar\app\SG.General.DebitCreditNoteManagement.Business.dll
+E:\new_sepidar\app\SG.General.DebitCreditNoteManagement.Common.dll
+E:\new_sepidar\app\SG.General.DebitCreditNoteManagement.UI.dll
+E:\new_sepidar\app\SG.General.DeliveryLocation.Business.dll
+E:\new_sepidar\app\SG.General.DeliveryLocation.Common.dll
+E:\new_sepidar\app\SG.General.DeliveryLocation.UI.dll
+E:\new_sepidar\app\SG.General.FormulaManagement.Business.dll
+E:\new_sepidar\app\SG.General.FormulaManagement.Common.dll
+E:\new_sepidar\app\SG.General.FormulaManagement.Controls.dll
+E:\new_sepidar\app\SG.General.FormulaManagement.UI.dll
+E:\new_sepidar\app\SG.General.FormulaManagementIntermediate.Business.dll
+E:\new_sepidar\app\SG.General.FormulaManagementIntermediate.Common.dll
+E:\new_sepidar\app\SG.General.Grouping.Business.dll
+E:\new_sepidar\app\SG.General.Grouping.Common.dll
+E:\new_sepidar\app\SG.General.Grouping.UI.dll
+E:\new_sepidar\app\SG.General.MarketingDisketteIntermediate.Business.dll
+E:\new_sepidar\app\SG.General.MarketingDisketteIntermediate.Common.dll
+E:\new_sepidar\app\SG.General.MarketingDisketteManagement.Business.dll
+E:\new_sepidar\app\SG.General.MarketingDisketteManagement.Common.dll
+E:\new_sepidar\app\SG.General.MarketingDisketteManagement.UI.dll
+E:\new_sepidar\app\SG.General.OpeningOperationIntermediate.Business.dll
+E:\new_sepidar\app\SG.General.OpeningOperationIntermediate.Common.dll
+E:\new_sepidar\app\SG.General.PartyManagement.Business.dll
+E:\new_sepidar\app\SG.General.PartyManagement.Common.dll
+E:\new_sepidar\app\SG.General.PartyManagement.UI.dll
+E:\new_sepidar\app\SG.General.Review.Common.dll
+E:\new_sepidar\app\SG.General.Review.Controls.dll
+E:\new_sepidar\app\SG.General.Review.UI.dll
+E:\new_sepidar\app\SG.General.SchedulingManagement.Business.dll
+E:\new_sepidar\app\SG.General.SchedulingManagement.Common.dll
+E:\new_sepidar\app\SG.General.SchedulingManagement.UI.dll
+E:\new_sepidar\app\SG.General.Settings.Business.dll
+E:\new_sepidar\app\SG.General.Settings.Common.dll
+E:\new_sepidar\app\SG.General.Settings.UI.dll
+E:\new_sepidar\app\SG.General.ShredIntermediate.Business.dll
+E:\new_sepidar\app\SG.General.ShredIntermediate.Common.dll
+E:\new_sepidar\app\SG.General.ShredManagement.Business.dll
+E:\new_sepidar\app\SG.General.ShredManagement.Common.dll
+E:\new_sepidar\app\SG.General.ShredManagement.UI.dll
+E:\new_sepidar\app\SG.General.SystemWorkflow.UI.dll
+E:\new_sepidar\app\SG.General.TaxPayer.Business.dll
+E:\new_sepidar\app\SG.General.TaxPayer.Common.dll
+E:\new_sepidar\app\SG.General.TaxPayer.MoadianSDK.dll
+E:\new_sepidar\app\SG.General.TaxPayer.UI.dll
+E:\new_sepidar\app\SG.General.ToDoList.UI.dll
+E:\new_sepidar\app\SG.General.UpdateDate1400.Business.dll
+E:\new_sepidar\app\SG.General.UpdateDate1400.Common.dll
+E:\new_sepidar\app\SG.General.UpdateDate1400.UI.dll
+E:\new_sepidar\app\SG.General.VatIntermediate.Business.dll
+E:\new_sepidar\app\SG.General.VatIntermediate.Common.dll
+E:\new_sepidar\app\SG.General.VatManagement.Business.dll
+E:\new_sepidar\app\SG.General.VatManagement.Common.dll
+E:\new_sepidar\app\SG.General.VatManagement.UI.dll
+E:\new_sepidar\app\SG.Inventory.General.Business.dll
+E:\new_sepidar\app\SG.Inventory.General.Common.dll
+E:\new_sepidar\app\SG.Inventory.General.UI.dll
+E:\new_sepidar\app\SG.Inventory.InventoryCommon.Business.dll
+E:\new_sepidar\app\SG.Inventory.InventoryCommon.Common.dll
+E:\new_sepidar\app\SG.Inventory.InventoryCommon.UI.dll
+E:\new_sepidar\app\SG.Inventory.InventoryOperations.Business.dll
+E:\new_sepidar\app\SG.Inventory.InventoryOperations.Common.dll
+E:\new_sepidar\app\SG.Inventory.InventoryOperations.UI.dll
+E:\new_sepidar\app\SG.Inventory.InventoryReceiptAndPayment.Business.dll
+E:\new_sepidar\app\SG.Inventory.InventoryReceiptAndPayment.Common.dll
+E:\new_sepidar\app\SG.Inventory.InventoryReceiptAndPayment.UI.dll
+E:\new_sepidar\app\SG.Inventory.ItemManagement.Business.dll
+E:\new_sepidar\app\SG.Inventory.ItemManagement.Common.dll
+E:\new_sepidar\app\SG.Inventory.ItemManagement.Controls.dll
+E:\new_sepidar\app\SG.Inventory.ItemManagement.UI.dll
+E:\new_sepidar\app\SG.Inventory.ShredInventoryOPIntermediate.Business.dll
+E:\new_sepidar\app\SG.Inventory.ShredInventoryOPIntermediate.Common.dll
+E:\new_sepidar\app\SG.Inventory.ShredInventoryOPIntermediate.UI.dll
+E:\new_sepidar\app\SG.Inventory.StockManagement.Business.dll
+E:\new_sepidar\app\SG.Inventory.StockManagement.Common.dll
+E:\new_sepidar\app\SG.Inventory.StockManagement.UI.dll
+E:\new_sepidar\app\SG.Inventory.UnitManagement.Business.dll
+E:\new_sepidar\app\SG.Inventory.UnitManagement.Common.dll
+E:\new_sepidar\app\SG.Inventory.UnitManagement.UI.dll
+E:\new_sepidar\app\SG.Inventory.WeighbridgeManagement.Business.dll
+E:\new_sepidar\app\SG.Inventory.WeighbridgeManagement.Common.dll
+E:\new_sepidar\app\SG.Inventory.WeighbridgeManagement.UI.dll
+E:\new_sepidar\app\SG.Inventory.Workflow.UI.dll
+E:\new_sepidar\app\SG.MessageManagement.Business.dll
+E:\new_sepidar\app\SG.MessageManagement.Common.dll
+E:\new_sepidar\app\SG.MessageManagement.UI.dll
+E:\new_sepidar\app\SG.Payroll.BasicData.Business.dll
+E:\new_sepidar\app\SG.Payroll.BasicData.Common.dll
+E:\new_sepidar\app\SG.Payroll.BasicData.Controls.dll
+E:\new_sepidar\app\SG.Payroll.BasicData.UI.dll
+E:\new_sepidar\app\SG.Payroll.ContractManagement.Business.dll
+E:\new_sepidar\app\SG.Payroll.ContractManagement.Common.dll
+E:\new_sepidar\app\SG.Payroll.ContractManagement.UI.dll
+E:\new_sepidar\app\SG.Payroll.PayrollOperation.Business.dll
+E:\new_sepidar\app\SG.Payroll.PayrollOperation.Common.dll
+E:\new_sepidar\app\SG.Payroll.PayrollOperation.UI.dll
+E:\new_sepidar\app\SG.Payroll.ShredLoanIntermediate.Business.dll
+E:\new_sepidar\app\SG.Payroll.ShredLoanIntermediate.Common.dll
+E:\new_sepidar\app\SG.Payroll.ShredLoanIntermediate.UI.dll
+E:\new_sepidar\app\SG.PointOfSale.InvoiceManagement.Business.dll
+E:\new_sepidar\app\SG.PointOfSale.InvoiceManagement.Common.dll
+E:\new_sepidar\app\SG.PointOfSale.InvoiceManagement.UI.dll
+E:\new_sepidar\app\SG.Purchasing.BasicData.Business.dll
+E:\new_sepidar\app\SG.Purchasing.BasicData.Common.dll
+E:\new_sepidar\app\SG.Purchasing.BasicData.UI.dll
+E:\new_sepidar\app\SG.Purchasing.General.Business.dll
+E:\new_sepidar\app\SG.Purchasing.General.Common.dll
+E:\new_sepidar\app\SG.Purchasing.General.UI.dll
+E:\new_sepidar\app\SG.Purchasing.PurchasingOperations.Business.dll
+E:\new_sepidar\app\SG.Purchasing.PurchasingOperations.Common.dll
+E:\new_sepidar\app\SG.Purchasing.PurchasingOperations.UI.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.BankReconciliation.Business.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.BankReconciliation.Common.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.BankReconciliation.UI.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.BasicData.Business.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.BasicData.Common.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.BasicData.Controls.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.BasicData.UI.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.General.Common.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.General.Controls.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.General.UI.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.PartySettlementManagement.Business.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.PartySettlementManagement.Common.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.PartySettlementManagement.UI.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.PaymentManagement.Business.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.PaymentManagement.Common.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.PaymentManagement.UI.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.ReceiptManagement.Business.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.ReceiptManagement.Common.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.ReceiptManagement.UI.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.Settings.Business.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.Settings.Common.dll
+E:\new_sepidar\app\SG.ReceiptAndPayment.Settings.UI.dll
+E:\new_sepidar\app\SG.Sales.General.Business.dll
+E:\new_sepidar\app\SG.Sales.General.Common.dll
+E:\new_sepidar\app\SG.Sales.General.UI.dll
+E:\new_sepidar\app\SG.Sales.InvoiceCommon.Business.dll
+E:\new_sepidar\app\SG.Sales.InvoiceCommon.Common.dll
+E:\new_sepidar\app\SG.Sales.InvoiceManagement.Business.dll
+E:\new_sepidar\app\SG.Sales.InvoiceManagement.Common.dll
+E:\new_sepidar\app\SG.Sales.InvoiceManagement.UI.dll
+E:\new_sepidar\app\SG.Sales.SalePriceManagement.Business.dll
+E:\new_sepidar\app\SG.Sales.SalePriceManagement.Common.dll
+E:\new_sepidar\app\SG.Sales.SalePriceManagement.UI.dll
+E:\new_sepidar\app\SG.Sales.SalesReceiptAndPayment.Business.dll
+E:\new_sepidar\app\SG.Sales.SalesReceiptAndPayment.Common.dll
+E:\new_sepidar\app\SG.Sales.SalesReceiptAndPayment.UI.dll
+E:\new_sepidar\app\SG.Sales.ShredInvoiceIntermediate.Business.dll
+E:\new_sepidar\app\SG.Sales.ShredInvoiceIntermediate.Common.dll
+E:\new_sepidar\app\SG.Sales.ShredInvoiceIntermediate.UI.dll
+E:\new_sepidar\app\SG.Sales.Workflow.UI.dll
+E:\new_sepidar\app\SG.TestFramework.dll
+E:\new_sepidar\app\SG.WorkOrder.BasicData.Business.dll
+E:\new_sepidar\app\SG.WorkOrder.BasicData.Common.dll
+E:\new_sepidar\app\SG.WorkOrder.BasicData.UI.dll
+E:\new_sepidar\app\SG.WorkOrder.WorkOrderOperations.Business.dll
+E:\new_sepidar\app\SG.WorkOrder.WorkOrderOperations.Common.dll
+E:\new_sepidar\app\SG.WorkOrder.WorkOrderOperations.UI.dll
+[General][1404/09/01 06:14:43 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.IFiscalYearService.GetAllFiscalYears
+
+[General][1404/09/01 06:14:43 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:14:43 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 1 ms
+[General][1404/09/01 06:14:43 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.IFiscalYearService.GetAllFiscalYears 1 ms
+[General][1404/09/01 06:14:45 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Inventory.ItemManagement.Common.IItemBusiness.SetGroupingEventHandler
+
+[General][1404/09/01 06:14:45 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Inventory.ItemManagement.Common.IItemBusiness.SetGroupingEventHandler 84 ms
+[General][1404/09/01 06:14:53 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Sales.SalePriceManagement.Common.IDiscountBusiness.HasPriceNoteDiscount
+
+[General][1404/09/01 06:14:53 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Sales.SalePriceManagement.Common.IDiscountBusiness.HasPriceNoteDiscount 114 ms
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Show FrmSplash' Finished (Duration: 22026/6091ms)
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Show FrmMain' Started
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetConfigurations
+Arguments:
+	Int32 : -1714233998
+
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 1 ms
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetConfigurations 11 ms
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetUserConfigurations
+Arguments:
+	UserRow : SG.Framework.Security.Common.UserRow
+	Int32 : 0
+
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Configuration.Common.IUserConfigurationBusiness.FetchByUserId
+Arguments:
+	Int32 : 1
+
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Configuration.Common.IUserConfigurationBusiness.FetchByUserId 44 ms
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetUserConfigurations 45 ms
+[General][1404/09/01 06:14:54 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues
+
+[General][1404/09/01 06:14:57 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues 3121 ms
+[General][1404/09/01 06:14:57 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetUserConfigurationValue
+Arguments:
+	String : ApplicationTheme
+	Int32 : 1
+
+[General][1404/09/01 06:14:57 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Configuration.Common.IUserConfigurationBusiness.FetchByKeyAndUserId
+Arguments:
+	String : ApplicationTheme
+	Int32 : 1
+
+[General][1404/09/01 06:14:57 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Configuration.Common.IUserConfigurationBusiness.FetchByKeyAndUserId 1 ms
+[General][1404/09/01 06:14:57 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetUserConfigurationValue 2 ms
+[General][1404/09/01 06:14:57 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.IFiscalYearService.GetAllFiscalYears
+
+[General][1404/09/01 06:14:57 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:14:57 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][1404/09/01 06:14:57 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.IFiscalYearService.GetAllFiscalYears 0 ms
+[General][1404/09/01 06:14:58 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Fetching Keywords' Started
+[General][1404/09/01 06:14:58 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Fetching Keywords' Finished (Duration: 226/1554ms)
+[General][1404/09/01 06:14:58 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] FrmMain.Localize
+[General][1404/09/01 06:14:58 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Before FrmMain.Show
+[General][1404/09/01 06:14:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] After FrmMain.Show
+[General][1404/09/01 06:14:59 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Session 'Show FrmMain' Finished (Duration: 5408/2873ms)
+[General][1404/09/01 06:15:02 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Currency.ICurrencyService.FetchSystemCurrency
+
+[General][1404/09/01 06:15:02 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.General.CurrencyManagement.Common.DsCurrency, SG.General.CurrencyManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchByID
+Arguments:
+	Int32 : 1
+
+[General][1404/09/01 06:15:02 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.General.CurrencyManagement.Common.DsCurrency, SG.General.CurrencyManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchByID 115 ms
+[General][1404/09/01 06:15:02 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Currency.ICurrencyService.FetchSystemCurrency 162 ms
+[General][1404/09/01 06:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Inventory.ItemManagement.Common.IItemBusiness.AreAllThumbnailsPresent
+
+[General][1404/09/01 06:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Inventory.ItemManagement.Common.IItemBusiness.AreAllThumbnailsPresent 109 ms
+[General][1404/09/01 06:15:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetConfigurationValue
+Arguments:
+	String : CorrectStatusBillSerialIsDone
+
+[General][1404/09/01 06:15:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Configuration.Common.IConfigurationBusiness.FetchByKey
+Arguments:
+	String : CorrectStatusBillSerialIsDone
+
+[General][1404/09/01 06:15:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Configuration.Common.IConfigurationBusiness.FetchByKey 15 ms
+[General][1404/09/01 06:15:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetConfigurationValue 15 ms
+[General][1404/09/01 06:15:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Contract.ContractOperation.Common.Contract.IContractBusiness.ContractHasAnyInvalidStatusBillSerial
+
+[General][2025/11/22 06:15:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Contract.ContractOperation.Common.Contract.IContractBusiness.FetchContractsThatHaveInvalidStatusBillSerial
+
+[General][1404/09/01 06:15:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Contract.ContractOperation.Common.Contract.IContractBusiness.ContractHasAnyInvalidStatusBillSerial 390 ms
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.IFiscalYearService.AreAllGroupClosed
+Arguments:
+	Int32 : 3
+	FiscalYearTime : PreviousYear
+
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.FiscalYearManagement.Common.IClosingOperationBusiness.GetClosingState
+Arguments:
+	Int32 : 3
+	ClosingGroup : ReceiptAndPayment
+	 null
+	FiscalYearTime : PreviousYear
+	Boolean : False
+
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.IFiscalYearService.GetAllFiscalYears
+
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.IFiscalYearService.GetAllFiscalYears 0 ms
+[General][2025/11/22 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Contract.ContractOperation.Common.Contract.IContractBusiness.FetchContractsThatHaveInvalidStatusBillSerial 1312 ms
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.FiscalYearManagement.Common.IClosingOperationBusiness.GetClosingState 265 ms
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.FiscalYearManagement.Common.IClosingOperationBusiness.GetClosingState
+Arguments:
+	Int32 : 3
+	ClosingGroup : Stocks
+	 null
+	FiscalYearTime : PreviousYear
+	Boolean : False
+
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.IFiscalYearService.GetAllFiscalYears
+
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.IFiscalYearService.GetAllFiscalYears 0 ms
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.FiscalYearManagement.Common.IClosingOperationBusiness.GetClosingState 0 ms
+[General][1404/09/01 06:15:07 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.IFiscalYearService.AreAllGroupClosed 562 ms
+[General][1404/09/01 06:15:08 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] bwDataLoader_RunWorkerCompleted1elistContract
+[General][1404/09/01 06:15:08 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] bwDataLoader_RunWorkerCompleted1SG.Contract.ContractOperation.Common.Contract.DsContract
+[General][1404/09/01 06:17:04 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.IFiscalYearService.GetLastFiscalYear
+
+[General][1404/09/01 06:17:04 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:17:04 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.FiscalYearManagement.Common.DsFiscalYear, SG.Framework.FiscalYearManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][1404/09/01 06:17:04 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.IFiscalYearService.GetLastFiscalYear 31 ms
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.IFiscalYearService.GetFiscalYear
+Arguments:
+	DateTime : 1389/11/30 12:00:00 ق.ظ
+
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.FiscalYearManagement.Common.IFiscalYearBusiness.GetFiscalYear
+Arguments:
+	DateTime : 1389/11/30 12:00:00 ق.ظ
+
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.FiscalYearManagement.Common.IFiscalYearBusiness.GetFiscalYear 0 ms
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.IFiscalYearService.GetFiscalYear 0 ms
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin Tran [SaveConfigurationValue][SG.Framework.Configuration.IConfigurationService]
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.SaveConfigurationValue
+Arguments:
+	String : CorrectReceiptAndPaymentClosingOperationIsDone
+	String : True
+
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.Configuration.Common.DsConfiguration]]
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save
+Arguments:
+	DsConfiguration : SG.Configuration.Common.DsConfiguration
+	Boolean : True
+
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save started...
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save BeforeSave(dataset);
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnBeforeSavingEntity(dataset);
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save ValidateSave(dataset);
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DoSave(dataset, false);
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save AfterSave(dataset);
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnAfterEntitySaved(dataset);
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DAO.AcceptChanges(dataset);
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save finished
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Commit Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.Configuration.Common.DsConfiguration]]
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save 124 ms
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetConfigurations
+Arguments:
+	Int32 : -1714233998
+
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Configuration.Common.DsConfiguration, SG.Configuration.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetConfigurations 0 ms
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetUserConfigurations
+Arguments:
+	UserRow : SG.Framework.Security.Common.UserRow
+	Int32 : -1830990091
+
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Configuration.Common.IUserConfigurationBusiness.FetchByUserId
+Arguments:
+	Int32 : 1
+
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Configuration.Common.IUserConfigurationBusiness.FetchByUserId 0 ms
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetUserConfigurations 15 ms
+[General][1404/09/01 06:17:05 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues
+
+[General][1404/09/01 06:17:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.FetchDefaultConfigurationValues 796 ms
+[General][1404/09/01 06:17:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Commit Tran [SaveConfigurationValue][SG.Framework.Configuration.IConfigurationService]
+[General][1404/09/01 06:17:06 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.SaveConfigurationValue 968 ms
+[General][2025/11/22 06:18:40 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Sales.InvoiceManagement.Common.DsQuotation, SG.Sales.InvoiceManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][2025/11/22 06:18:41 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Sales.InvoiceManagement.Common.DsQuotation, SG.Sales.InvoiceManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 1390 ms
+[General][1404/09/01 06:18:41 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] bwDataLoader_RunWorkerCompleted1elMain
+[General][1404/09/01 06:18:41 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] bwDataLoader_RunWorkerCompleted1SG.Sales.InvoiceManagement.Common.DsQuotation
+[General][1404/09/01 06:18:41 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] bwDataLoader_RunWorkerCompleted2
+[General][1404/09/01 06:18:41 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] bwDataLoader_RunWorkerCompleted3
+[General][1404/09/01 06:18:41 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] bwDataLoader_RunWorkerCompleted6
+[General][1404/09/01 06:18:43 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] bwDataLoader_RunWorkerCompleted7
+[General][1404/09/01 06:18:43 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] bwDataLoader_RunWorkerCompleted End
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save started...
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save BeforeSave(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnBeforeSavingEntity(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IAutomaticBackupConfigBusiness' fired
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IAutomaticBackupConfigBusiness' firing finished
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save ValidateSave(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DoSave(dataset, false);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save AfterSave(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnAfterEntitySaved(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IAutomaticBackupConfigBusiness' fired
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IAutomaticBackupConfigBusiness' firing finished
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DAO.AcceptChanges(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save finished
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.General.BackupManagement.Common.DsBackup]]
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.General.BackupManagement.Common.DsBackup, SG.General.BackupManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save
+Arguments:
+	DsBackup : SG.General.BackupManagement.Common.DsBackup
+	Boolean : True
+
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save started...
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save BeforeSave(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnBeforeSavingEntity(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IBackupBusiness' fired
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IBackupBusiness' firing finished
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save ValidateSave(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DoSave(dataset, false);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save AfterSave(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnAfterEntitySaved(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IBackupBusiness' fired
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IBackupBusiness' firing finished
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DAO.AcceptChanges(dataset);
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save finished
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Commit Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.General.BackupManagement.Common.DsBackup]]
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.General.BackupManagement.Common.DsBackup, SG.General.BackupManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save 78 ms
+[General][2025/11/22 06:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IBackupBusiness.Backup
+Arguments:
+	DsBackup : SG.General.BackupManagement.Common.DsBackup
+
+[General][2025/11/22 06:25:37 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IBackupBusiness.Backup 33638 ms
+[General][2025/11/22 06:25:37 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 34309 ms
+[General][2025/11/22 06:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 06:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 06:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 06:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 06:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 06:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 07:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 07:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 07:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 07:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 07:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 07:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 07:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 07:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 07:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 07:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 07:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 07:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 08:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 08:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 08:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 08:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 08:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 08:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 210 ms
+[General][2025/11/22 08:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 08:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 08:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 08:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 08:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 08:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 09:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 09:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 09:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 09:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 09:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 09:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 09:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 09:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 09:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 09:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 09:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 09:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 10:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 10:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 10:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 10:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 10:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 10:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 10:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 10:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 15 ms
+[General][2025/11/22 10:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 10:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 10:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 10:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 11:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 11:05:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 11:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 11:15:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 11:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 11:25:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 11:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 11:35:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 11:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 11:45:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 11:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 11:55:03 ق.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 12:05:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 12:05:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 12:15:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 12:15:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 12:25:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 12:25:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 12:35:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 12:35:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 12:45:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 12:45:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 12:55:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 12:55:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 01:05:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 01:05:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 01:15:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 01:15:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 01:25:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 01:25:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 01:35:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 01:35:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 01:45:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 01:45:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 01:55:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 01:55:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 02:05:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 02:05:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 02:15:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 02:15:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 02:25:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 02:25:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 02:35:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 02:35:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 02:45:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 02:45:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 02:55:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 02:55:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 03:05:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 03:05:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][1404/09/01 03:07:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Inventory.ItemManagement.Common.DsProperty, SG.Inventory.ItemManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 03:07:04 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Inventory.ItemManagement.Common.DsProperty, SG.Inventory.ItemManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 46 ms
+[General][1404/09/01 03:07:04 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Inventory.ItemManagement.Common.DsProperty, SG.Inventory.ItemManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 03:07:04 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Inventory.ItemManagement.Common.DsProperty, SG.Inventory.ItemManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][1404/09/01 03:07:19 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetCustomerSheetData
+Arguments:
+	Dictionary`2 : System.Collections.Generic.Dictionary`2[System.String,System.Object]
+
+[General][1404/09/01 03:07:20 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetCustomerSheetData 203 ms
+[General][1404/09/01 03:07:22 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetItemSheetData
+Arguments:
+	Dictionary`2 : System.Collections.Generic.Dictionary`2[System.String,System.Object]
+
+[General][1404/09/01 03:07:23 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetItemSheetData 265 ms
+[General][1404/09/01 03:07:23 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Inventory.ItemManagement.Common.DsProperty, SG.Inventory.ItemManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 03:07:23 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Inventory.ItemManagement.Common.DsProperty, SG.Inventory.ItemManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][1404/09/01 03:07:52 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetCustomerSheetData
+Arguments:
+	Dictionary`2 : System.Collections.Generic.Dictionary`2[System.String,System.Object]
+
+[General][1404/09/01 03:07:52 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetCustomerSheetData 31 ms
+[General][1404/09/01 03:08:00 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetItemSheetData
+Arguments:
+	Dictionary`2 : System.Collections.Generic.Dictionary`2[System.String,System.Object]
+
+[General][1404/09/01 03:08:00 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetItemSheetData 31 ms
+[General][1404/09/01 03:08:00 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Inventory.ItemManagement.Common.DsProperty, SG.Inventory.ItemManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll
+
+[General][1404/09/01 03:08:00 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Inventory.ItemManagement.Common.DsProperty, SG.Inventory.ItemManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchAll 0 ms
+[General][2025/11/22 03:15:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 03:15:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 03:25:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 03:25:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][1404/09/01 03:26:11 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetItemSheetData
+Arguments:
+	Dictionary`2 : System.Collections.Generic.Dictionary`2[System.String,System.Object]
+
+[General][1404/09/01 03:26:11 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetItemSheetData 31 ms
+[General][1404/09/01 03:26:12 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetItemSheetData
+Arguments:
+	Dictionary`2 : System.Collections.Generic.Dictionary`2[System.String,System.Object]
+
+[General][1404/09/01 03:26:12 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Sales.InvoiceManagement.Common.IInvoiceBusiness.GetItemSheetData 31 ms
+[General][2025/11/22 03:35:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 03:35:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 0 ms
+[General][2025/11/22 03:45:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly
+Arguments:
+	Boolean : False
+	Action`1 : System.Action`1[SG.General.BackupManagement.Common.BackupRow]
+
+[General][2025/11/22 03:45:03 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IAutomaticBackupConfigBusiness.BackupDataBaseAutomaticlly 218 ms
+[General][1404/09/01 03:53:42 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.ReportGenerator.Common.IUserReportsBusiness.FetchAllWithoutXmlAndData
+
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.ReportGenerator.Common.IUserReportsBusiness.FetchAllWithoutXmlAndData 93 ms
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.ReportGenerator.Common.DsUserReport, SG.Framework.ReportGenerator.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchByID
+Arguments:
+	Int32 : 1
+
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.ReportGenerator.Common.DsUserReport, SG.Framework.ReportGenerator.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchByID 31 ms
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.ReportGenerator.Common.IUserReportsBusiness.FetchAllWithoutXmlAndData
+
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.ReportGenerator.Common.IUserReportsBusiness.FetchAllWithoutXmlAndData 0 ms
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.ReportGenerator.Common.DsUserReport, SG.Framework.ReportGenerator.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchByID
+Arguments:
+	Int32 : 1
+
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.ReportGenerator.Common.DsUserReport, SG.Framework.ReportGenerator.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].FetchByID 0 ms
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetConfigurationValue
+Arguments:
+	String : DropboxAccessToken
+
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Configuration.Common.IConfigurationBusiness.FetchByKey
+Arguments:
+	String : DropboxAccessToken
+
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Configuration.Common.IConfigurationBusiness.FetchByKey 125 ms
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetConfigurationValue 125 ms
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Configuration.IConfigurationService.GetConfigurationValue
+Arguments:
+	String : DropboxAccessToken
+
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Configuration.Common.IConfigurationBusiness.FetchByKey
+Arguments:
+	String : DropboxAccessToken
+
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Configuration.Common.IConfigurationBusiness.FetchByKey 15 ms
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Configuration.IConfigurationService.GetConfigurationValue 15 ms
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IBackupBusiness.GetLastBackupPath
+
+[General][1404/09/01 03:53:43 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.General.BackupManagement.Common.IBackupBusiness.GetLastBackupPath 46 ms
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.General.BackupManagement.Common.DsBackup]]
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.General.BackupManagement.Common.DsBackup, SG.General.BackupManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save
+Arguments:
+	DsBackup : SG.General.BackupManagement.Common.DsBackup
+	Boolean : False
+
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save started...
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save BeforeSave(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnBeforeSavingEntity(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IBackupBusiness' fired
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IBackupBusiness' firing finished
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save ValidateSave(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DoSave(dataset, false);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save AfterSave(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnAfterEntitySaved(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IBackupBusiness' fired
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IBackupBusiness' firing finished
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DAO.AcceptChanges(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save finished
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Commit Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.General.BackupManagement.Common.DsBackup]]
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.General.BackupManagement.Common.DsBackup, SG.General.BackupManagement.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save 31 ms
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Note.INoteManagementService.SaveNote
+Arguments:
+	EntityNote : SG.Framework.Note.EntityNote
+
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Note.INoteManagementService.SaveNote 0 ms
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin Tran [SaveExtraInformation][SG.Framework.ExtraInformation.IExtraInformationService]
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.Framework.ExtraInformation.Common.DsExtraData]]
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.ExtraInformation.Common.DsExtraData, SG.Framework.ExtraInformation.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save
+Arguments:
+	DsExtraData : SG.Framework.ExtraInformation.Common.DsExtraData
+	Boolean : True
+
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save started...
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save BeforeSave(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnBeforeSavingEntity(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IExtraDataBusiness' fired
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IExtraDataBusiness' firing finished
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save ValidateSave(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DoSave(dataset, false);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save AfterSave(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnAfterEntitySaved(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IExtraDataBusiness' fired
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IExtraDataBusiness' firing finished
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DAO.AcceptChanges(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save finished
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Commit Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.Framework.ExtraInformation.Common.DsExtraData]]
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.ExtraInformation.Common.DsExtraData, SG.Framework.ExtraInformation.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save 46 ms
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.Framework.ExtraInformation.Common.DsExtraColumnDescription]]
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.ExtraInformation.Common.DsExtraColumnDescription, SG.Framework.ExtraInformation.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save
+Arguments:
+	DsExtraColumnDescription : SG.Framework.ExtraInformation.Common.DsExtraColumnDescription
+	Boolean : True
+
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save started...
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save BeforeSave(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnBeforeSavingEntity(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IExtraColumnDescriptionBusiness' fired
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'BeforeSavingEntity' from service 'IExtraColumnDescriptionBusiness' firing finished
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save ValidateSave(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DoSave(dataset, false);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save AfterSave(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save OnAfterEntitySaved(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IExtraColumnDescriptionBusiness' fired
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Event 'AfterEntitySaved' from service 'IExtraColumnDescriptionBusiness' firing finished
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save DAO.AcceptChanges(dataset);
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] BaseBusiness Save finished
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Commit Tran [Save][SG.Framework.Business.IBaseBusiness`1[SG.Framework.ExtraInformation.Common.DsExtraColumnDescription]]
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] End: SG.Framework.Business.IBaseBusiness`1[[SG.Framework.ExtraInformation.Common.DsExtraColumnDescription, SG.Framework.ExtraInformation.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].Save 15 ms
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Commit Tran [SaveExtraInformation][SG.Framework.ExtraInformation.IExtraInformationService]
+[General][1404/09/01 03:53:47 ب.ظ]: [DESKTOP-PGLTSG7][5.8.7] Begin: SG.General.BackupManagement.Common.IBackupBusiness.Backup
+Arguments:
+	DsBackup : SG.General.BackupManagement.Common.DsBackup
+
