@@ -1,0 +1,77 @@
+--<<FileName:AST_Elimination.sql>>--
+--<< TABLE DEFINITION >>--
+
+IF (Object_ID('AST.Elimination') Is Null)
+BEGIN
+
+CREATE TABLE [AST].[Elimination](
+	[EliminationID] [int] NOT NULL,
+	[Number] [int] NOT NULL,
+	[Date] [datetime] NOT NULL,
+	[VoucherRef] [int] NULL,
+	[FiscalYearRef] [int] NOT NULL,
+	[LossSLRef] [int] NULL,
+	[Description] [nvarchar](255) NULL,
+	[Description_En] [nvarchar](255) NULL,
+	[Version] [int] NOT NULL,
+	[Creator] [int] NOT NULL,
+	[CreationDate] [DateTime] NOT NULL,
+	[LastModifier] [int] NOT NULL,
+	[LastModificationDate] [DateTime] NOT NULL,
+) ON [PRIMARY]
+END
+
+--TEXTIMAGE_ON [SGBlob_Data]
+--When a table has text, ntext, image, varchar(max), nvarchar(max), varbinary(max), xml or large user defined type columns uncomment above code
+GO
+--<< ADD CLOLUMNS >>--
+
+--<<Sample>>--
+
+--<< PRIMARYKEY DEFINITION >>--
+If not Exists (select 1 from sys.objects where name = 'PK_Elimination')
+ALTER TABLE [AST].[Elimination] ADD  CONSTRAINT [PK_Elimination] PRIMARY KEY CLUSTERED 
+(
+	[EliminationId] ASC
+) ON [PRIMARY]
+GO
+
+--<< ALTER COLUMNS >>--
+IF (SELECT COLUMNPROPERTY(OBJECT_ID('AST.Elimination', 'U'), 'LossSLRef', 'AllowsNull')) = 0
+BEGIN
+	ALTER TABLE [AST].[Elimination] ALTER COLUMN [LossSLRef] INTEGER NULL
+END
+
+--<< DEFAULTS CHECKS DEFINITION >>--
+
+--<< RULES DEFINITION >>--
+
+--<< INDEXES DEFINITION >>--
+
+--<< FOREIGNKEYS DEFINITION >>--
+if NOT exists (select 1 from sys.objects where  name = N'FK_AST_Elimination_LossSLRef')
+BEGIN
+    ALTER TABLE [AST].[Elimination] ADD CONSTRAINT [FK_AST_Elimination_LossSLRef] 
+    FOREIGN KEY (LossSLRef) 
+	REFERENCES [ACC].[Account](AccountId);
+END    
+
+Go
+
+if NOT exists (select 1 from sys.objects where name =N'FK_AST_Elimination_FiscalYearRef')
+BEGIN        
+    ALTER TABLE [AST].[Elimination]
+    ADD CONSTRAINT [FK_AST_Elimination_FiscalYearRef] 
+    FOREIGN KEY (FiscalYearRef) REFERENCES [FMK].[FiscalYear](FiscalYearId);
+    
+END	
+Go
+if NOT exists (select 1 from sys.objects where name =N'FK_AST_Elimination_VoucherRef') 
+BEGIN    
+    ALTER TABLE [AST].[Elimination]
+    ADD CONSTRAINT [FK_AST_Elimination_VoucherRef] 
+    FOREIGN KEY (VoucherRef) REFERENCES [ACC].[Voucher](VoucherID);
+END
+
+
+--<< DROP OBJECTS >>--

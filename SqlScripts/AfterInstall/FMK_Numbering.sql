@@ -1,0 +1,1 @@
+Delete  FMK.[NumberedEntity] WHERE EntityFullName = N'SG.ReceiptAndPayment.PartySettlementManagement.Common.PartySettlementRow'  

@@ -1,0 +1,6 @@
+exec FMK.spAddKeyword 'Distribution.DistributionOperation.DsColdDistribution.List', N'فهرست توزيع سرد، پخش كالا، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'Distribution.DistributionOperation.DsColdDistribution.New', N'پخش، پخش كالا، سرد، اقلام', N'', N'', N''
+exec FMK.spAddKeyword 'Distribution.DistributionOperation.DsDebtCollectionList.List', N'فهرست ليست وصول، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'Distribution.DistributionOperation.DsDebtCollectionList.New', N'وصول مطالبات، دريافت وجه، مطالبات، وصول بدهي', N'', N'', N''
+exec FMK.spAddKeyword 'Distribution.DistributionOperation.DsHotDistribution.List', N'فهرست توزيع گرم، پخش كالا، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'Distribution.DistributionOperation.DsHotDistribution.New', N'پخش، پخش كالا، گرم، اقلام', N'', N'', N''

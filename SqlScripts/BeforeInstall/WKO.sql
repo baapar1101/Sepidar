@@ -1,0 +1,3 @@
+IF NOT EXISTS(SELECT 1 FROM sys.schemas WHERE [Name] = 'WKO')
+	EXEC SP_EXECUTESQL N'CREATE SCHEMA WKO Authorization dbo'
+GO

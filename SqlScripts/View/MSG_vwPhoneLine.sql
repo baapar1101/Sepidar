@@ -1,0 +1,7 @@
+﻿IF OBJECT_ID('MSG.vwPhoneLine') IS NOT NULL
+	DROP VIEW MSG.vwPhoneLine
+GO
+CREATE VIEW [MSG].[vwPhoneLine]
+AS
+SELECT  *
+FROM  MSG.[PhoneLine]

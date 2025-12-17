@@ -1,0 +1,3 @@
+	--EXEC ACC.spCorrectAccountsBazargani
+	--EXEC ACC.spCorrectAccountsTolidi
+	--EXEC ACC.spCorrectAccountsKhadamati

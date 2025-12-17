@@ -1,0 +1,7 @@
+exec FMK.spAddKeyword 'Sales.SalePriceManagement.DsDiscount.List', N'فهرست تخفيف ها، اشانتيون، آفرها، هديه ها، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'Sales.SalePriceManagement.DsDiscount.New', N'آفر، اشانتيون، هديه', N'', N'', N''
+exec FMK.spAddKeyword 'Sales.SalePriceManagement.DsPriceNote.PriceNoteView', N'ليست، قيمت گذاري، قيمت پيش فرض، تعيين قيمت، في، كالا، فروش', N'', N'', N''
+exec FMK.spAddKeyword 'Sales.SalePriceManagement.DsProductPack.List', N'فهرست اشانتيون، هديه ها، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'Sales.SalePriceManagement.DsProductPack.New', N'گروه محصول، اشانتيون، پكيج هديه', N'', N'', N''
+exec FMK.spAddKeyword 'Sales.SalePriceManagement.DsSaleType.List', N'فهرست انواع فروش، مدل ها، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'Sales.SalePriceManagement.DsSaleType.New', N'انواع فروش، فروش رسمي، فروش غيررسمي، مدل هاي فروش، معين هاي سند فروش، نحوه فروش', N'', N'', N''

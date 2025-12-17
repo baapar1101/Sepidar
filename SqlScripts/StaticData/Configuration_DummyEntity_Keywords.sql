@@ -1,0 +1,1 @@
+exec FMK.spAddKeyword 'Configuration.DummyEntity.Configuration', N'تعيين معين سندحسابداري، دراپ باكس، ارزش افزوده، ارزپايه سيستم، تقويم ، زبان، شركت، شماره ثبت، شناسه ملي، نشان تجاري، لوگو', N'', N'', N''

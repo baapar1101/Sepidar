@@ -1,0 +1,5 @@
+exec FMK.spAddLookup 'LocationType',0,'محل هاي جغرافيايي','Location',N'شوێنە جوگرافييەكان',N'المواقع الجغرافي','GNR',1,''
+exec FMK.spAddLookup 'LocationType',1,'كشور','Country',N'وڵات',N'بلد','GNR',2,''
+exec FMK.spAddLookup 'LocationType',2,'استان','State',N'پارێزگا',N'المحافظة','GNR',3,''
+exec FMK.spAddLookup 'LocationType',3,'شهر','City',N'شار',N'المدينة','GNR',4,''
+exec FMK.spAddLookup 'LocationType',4,'روستا','Village',N'گوند',N'قرية','GNR',5,''

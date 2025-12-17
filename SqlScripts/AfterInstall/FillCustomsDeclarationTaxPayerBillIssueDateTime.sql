@@ -1,0 +1,3 @@
+UPDATE SLS.CustomsDeclaration
+SET TaxPayerBillIssueDateTime = LastModificationDate
+WHERE TaxPayerBillIssueDateTime IS NUll

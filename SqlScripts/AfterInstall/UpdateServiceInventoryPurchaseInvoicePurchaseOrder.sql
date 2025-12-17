@@ -1,0 +1,2 @@
+UPDATE INV.InventoryPurchaseInvoice SET PurchaseOrderRef = (Select PurchaseOrderID FROM POM.PurchaseOrder PO WHERE PO.DLRef=CostCenterRef)
+WHERE [Type] = 2 AND PurchaseOrderRef IS NULL AND CostCenterRef IS NOT NULL

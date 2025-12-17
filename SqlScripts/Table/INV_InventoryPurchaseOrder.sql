@@ -1,0 +1,64 @@
+--<<FileName:INV_InventoryPurchaseOrder.sql>>--
+--<< TABLE DEFINITION >>--
+
+If NOT Object_ID('INV.InventoryPurchaseOrder') Is Null
+	Drop Table INV.InventoryPurchaseOrder
+
+--If Object_ID('INV.InventoryPurchaseOrder') Is Null
+--CREATE TABLE [INV].[InventoryPurchaseOrder](
+--	[InventoryPurchaseOrderID] [int] NOT NULL,
+--	[VendorDLRef] [int] NOT NULL,
+--	[Number] [int] NOT NULL,
+--	[Date] [datetime] NOT NULL,
+--	[FiscalYearRef] [int] NOT NULL,
+--	[Creator] [int] NOT NULL,
+--	[CreationDate] [datetime] NOT NULL,
+--	[LastModifier] [int] NOT NULL,
+--	[LastModificationDate] [datetime] NOT NULL,
+--	[Version] [int] NOT NULL
+--) ON [PRIMARY]
+--
+----TEXTIMAGE_ON [SGBlob_Data]
+----When a table has text, ntext, image, varchar(max), nvarchar(max), varbinary(max), xml or large user defined type columns uncomment above code
+--GO
+----<< ADD CLOLUMNS >>--
+--
+----<<Sample>>--
+--/*if not exists (select 1 from sys.columns where object_id=object_id('INV.InventoryPurchaseOrder') and
+--				[name] = 'ColumnName')
+--begin
+--    Alter table INV.InventoryPurchaseOrder Add ColumnName DataType Nullable
+--end
+--GO*/
+--
+----<< ALTER COLUMNS >>--
+--
+----<< PRIMARYKEY DEFINITION >>--
+--
+--If not Exists (select 1 from sys.objects where name = 'PK_InventoryPurchaseOrder')
+--ALTER TABLE [INV].[InventoryPurchaseOrder] ADD  CONSTRAINT [PK_InventoryPurchaseOrder] PRIMARY KEY CLUSTERED 
+--(
+--	[InventoryPurchaseOrderID] ASC
+--) ON [PRIMARY]
+--GO
+--
+----<< DEFAULTS CHECKS DEFINITION >>--
+--
+----<< RULES DEFINITION >>--
+--
+----<< INDEXES DEFINITION >>--
+--
+----<< FOREIGNKEYS DEFINITION >>--
+--
+--If not Exists (select 1 from sys.objects where name = 'FK_InventoryPurchaseOrder_DL')
+--ALTER TABLE [INV].[InventoryPurchaseOrder]  ADD  CONSTRAINT [FK_InventoryPurchaseOrder_DL] FOREIGN KEY([VendorDLRef])
+--REFERENCES [ACC].[DL] ([DLId])
+--
+--GO
+--If not Exists (select 1 from sys.objects where name = 'FK_InventoryPurchaseOrder_FiscalYear')
+--ALTER TABLE [INV].[InventoryPurchaseOrder]  ADD  CONSTRAINT [FK_InventoryPurchaseOrder_FiscalYear] FOREIGN KEY([FiscalYearRef])
+--REFERENCES [FMK].[FiscalYear] ([FiscalYearId])
+--
+--GO
+--
+----<< DROP OBJECTS >>--

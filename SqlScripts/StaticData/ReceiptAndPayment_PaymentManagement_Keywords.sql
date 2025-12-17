@@ -1,0 +1,7 @@
+exec FMK.spAddKeyword 'ReceiptAndPayment.PaymentManagement.DsPayment.List', N'فهرست برداشت از حساب، نقدي، خرج كردن چك، صندوق، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.PaymentManagement.DsPayment.New', N'برداشت از حساب، نقدي، خرج كردن چك، صندوق، راس گيري، بانكي، چك، ضميني، ضمانت، شارژ تنخواه، پراخت به تنخواه دار، پرداخت به تنخواه گردان، شارژ تنخواه گردان', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.PaymentManagement.DsPaymentChequeBanking.List', N'فهرست وصول چك پرداختي، نقد شده، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.PaymentManagement.DsPaymentChequeBanking.New', N'نقد كردن، چك مدت دار', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.PaymentManagement.DsRefundCheque.List', N'فهرست چك هاي مسترد شده، برگشت، ليست ', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.PaymentManagement.DsRefundCheque.New', N'برگشت چك، عودت، تعويض', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.PaymentManagement.DummyEntity.ShowReview', N'گزارش، گردش حساب بانك، چكهاي نزد صندوق، دريافتي، تنخواه دار، پرداختي، سررسيد، ريز بانك، خزانه', N'', N'', N''

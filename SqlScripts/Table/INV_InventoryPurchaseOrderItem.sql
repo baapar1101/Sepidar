@@ -1,0 +1,78 @@
+--<<FileName:INV_InventoryPurchaseOrderItem.sql>>--
+--<< TABLE DEFINITION >>--
+
+If NOT Object_ID( 'INV.InventoryPurchaseOrderItem') Is Null
+	Drop Table INV.InventoryPurchaseOrderItem
+--
+--If Object_ID('INV.InventoryPurchaseOrderItem') Is Null
+--CREATE TABLE [INV].[InventoryPurchaseOrderItem](
+--	[InventoryPurchaseOrderItemID] [int] NOT NULL,
+--	[InventoryPurchaseOrderRef] [int] NOT NULL,
+--	[RowNumber] [int] NOT NULL,
+--	[ItemRef] [int] NOT NULL,
+--	[Quantity] [decimal](19, 3) NOT NULL,
+--	[SecondaryQuantity] [decimal](19, 3) NULL,
+--	[RemainingQuantity] [decimal](19, 3) NOT NULL,
+--	[RemainingSecondaryQuantity] [decimal](19, 3) NULL,
+--	[Fee] [decimal](19, 4) NULL,
+--	[CurrencyRef] [int] NULL,
+--	[CurrencyRate] [float] NULL,
+--	[CurrencyValue] [decimal](19, 4) NULL,
+--	[Price]  AS ([Fee]*[Quantity]) PERSISTED,
+--	[Tax] [decimal](19, 4) NULL,
+--	[Duty] [decimal](19, 4) NULL,
+--	[NetPrice]  AS (([Fee]*[Quantity]-isnull([Tax],(0)))-isnull([Duty],(0))) PERSISTED,
+--	[Description] [nvarchar](4000) NULL,
+--	[Description_En] [nvarchar](4000) NULL,
+--	[Version] [int] NOT NULL
+--) ON [PRIMARY]
+--
+----TEXTIMAGE_ON [SGBlob_Data]
+----When a table has text, ntext, image, varchar(max), nvarchar(max), varbinary(max), xml or large user defined type columns uncomment above code
+--GO
+----<< ADD CLOLUMNS >>--
+--
+----<<Sample>>--
+--/*if not exists (select 1 from sys.columns where object_id=object_id('INV.InventoryPurchaseOrderItem') and
+--				[name] = 'ColumnName')
+--begin
+--    Alter table INV.InventoryPurchaseOrderItem Add ColumnName DataType Nullable
+--end
+--GO*/
+--
+----<< ALTER COLUMNS >>--
+--
+----<< PRIMARYKEY DEFINITION >>--
+--
+--If not Exists (select 1 from sys.objects where name = 'PK_InventoryPurchaseOrderItem')
+--ALTER TABLE [INV].[InventoryPurchaseOrderItem] ADD  CONSTRAINT [PK_InventoryPurchaseOrderItem] PRIMARY KEY CLUSTERED 
+--(
+--	[InventoryPurchaseOrderItemID] ASC
+--) ON [PRIMARY]
+--GO
+--
+----<< DEFAULTS CHECKS DEFINITION >>--
+--
+----<< RULES DEFINITION >>--
+--
+----<< INDEXES DEFINITION >>--
+--
+----<< FOREIGNKEYS DEFINITION >>--
+--
+--If not Exists (select 1 from sys.objects where name = 'FK_InventoryPurchaseOrderItem_Currency')
+--ALTER TABLE [INV].[InventoryPurchaseOrderItem]  ADD  CONSTRAINT [FK_InventoryPurchaseOrderItem_Currency] FOREIGN KEY([CurrencyRef])
+--REFERENCES [GNR].[Currency] ([CurrencyID])
+--
+--GO
+--If not Exists (select 1 from sys.objects where name = 'FK_InventoryPurchaseOrderItem_InventoryPurchaseOrder')
+--ALTER TABLE [INV].[InventoryPurchaseOrderItem]  ADD  CONSTRAINT [FK_InventoryPurchaseOrderItem_InventoryPurchaseOrder] FOREIGN KEY([InventoryPurchaseOrderRef])
+--REFERENCES [INV].[InventoryPurchaseOrder] ([InventoryPurchaseOrderID])
+--
+--GO
+--If not Exists (select 1 from sys.objects where name = 'FK_InventoryPurchaseOrderItem_Item')
+--ALTER TABLE [INV].[InventoryPurchaseOrderItem]  ADD  CONSTRAINT [FK_InventoryPurchaseOrderItem_Item] FOREIGN KEY([ItemRef])
+--REFERENCES [INV].[Item] ([ItemID])
+--
+--GO
+--
+----<< DROP OBJECTS >>--

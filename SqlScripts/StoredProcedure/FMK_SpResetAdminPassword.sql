@@ -1,0 +1,8 @@
+IF object_id('FMK.spResetAdminPassword') IS NOT NULL
+	DROP PROCEDURE FMK.spResetAdminPassword
+GO
+CREATE PROCEDURE FMK.spResetAdminPassword WITH ENCRYPTION
+AS
+BEGIN
+	UPDATE FMK.[User] SET [Password]='212-29-140-217-143-0-178-4-233-128-9-152-236-248-66' WHERE [UserName]='Admin'
+END

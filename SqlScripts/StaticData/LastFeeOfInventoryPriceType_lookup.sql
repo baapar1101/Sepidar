@@ -1,0 +1,2 @@
+exec FMK.spAddLookup 'LastFeeOfInventoryPriceType',0,'آخرين قيمت خريد','Last buy price','آخرين قيمت خريد',N'آخرين قيمت خريد','INV',0,''
+exec FMK.spAddLookup 'LastFeeOfInventoryPriceType',1,'آخرين قيمت خريد تامين كننده','Last buy price Of Vendor','آخرين قيمت خريد تامين كننده',N'آخرين قيمت خريد تامين كننده','INV',1,''

@@ -1,0 +1,74 @@
+-- ToDo: Remove this file before relese
+IF OBJECT_ID('GNR.PartyUser') IS NOT NULL
+	DROP TABLE [GNR].[PartyUser]
+--
+----<<FileName:GNR_PartyUser.sql>>--
+----<< TABLE DEFINITION >>--
+--
+--If Object_ID('GNR.PartyUser') Is Null
+--CREATE TABLE [GNR].[PartyUser](
+--	[PartyUserId]	[INT] NOT NULL,
+--	[PartyRef]		[INT] NOT NULL,
+--	[UserRef]		[INT] NOT NULL,
+--	[Version]		[INT] NOT NULL
+--) ON [PRIMARY]
+--
+----TEXTIMAGE_ON [SGBlob_Data]
+----When a table has text, ntext, image, varchar(max), nvarchar(max), varbinary(max), xml or large user defined type columns uncomment above code
+--GO
+----<< ADD CLOLUMNS >>--
+--
+----<<Sample>>--
+--/*if not exists (select 1 from sys.columns where object_id=object_id('GNR.PartyRelated') and
+--				[name] = 'ColumnName')
+--begin
+--    Alter table GNR.PartyRelated Add ColumnName DataType Nullable
+--end
+--GO*/
+--
+----<< ALTER COLUMNS >>--
+--
+----<< PRIMARYKEY DEFINITION >>--
+--If not Exists (select 1 from sys.objects where name = 'PK_PartyUser')
+--ALTER TABLE [GNR].[PartyUser] ADD  CONSTRAINT [PK_PartyUser] PRIMARY KEY CLUSTERED 
+--(
+--	[PartyUserId] ASC
+--) ON [PRIMARY]
+--GO
+--
+----<< DEFAULTS CHECKS DEFINITION >>--
+--
+----<< RULES DEFINITION >>--
+--
+----<< INDEXES DEFINITION >>--
+--IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = 'UIX_PartyRef')
+--CREATE UNIQUE NONCLUSTERED INDEX [UIX_PartyRef] ON [GNR].[PartyUser]
+--(
+--	[PartyRef] ASC
+--) ON [PRIMARY]
+--GO
+--
+--IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = 'UIX_UserRef')
+--CREATE UNIQUE NONCLUSTERED INDEX [UIX_UserRef] ON [GNR].[PartyUser]
+--(
+--	[UserRef] ASC
+--) ON [PRIMARY]
+--GO
+--
+----<< FOREIGNKEYS DEFINITION >>--
+--If not Exists (select 1 from sys.objects where name = 'FK_PartyUser_PartyRef_Party_PartyId')
+--ALTER TABLE [GNR].[PartyUser]  ADD  CONSTRAINT [FK_PartyUser_PartyRef_Party_PartyId] FOREIGN KEY([PartyRef])
+--REFERENCES [GNR].[Party] ([PartyId])
+--ON UPDATE CASCADE
+--ON DELETE CASCADE
+--
+--GO
+--
+--If not Exists (select 1 from sys.objects where name = 'FK_PartyUser_UserRef_User_UserId')
+--ALTER TABLE [GNR].[PartyUser]  ADD  CONSTRAINT [FK_PartyUser_UserRef_User_UserId] FOREIGN KEY([UserRef])
+--REFERENCES [FMK].[User] ([UserId])
+--ON UPDATE CASCADE
+--
+--GO
+--
+----<< DROP OBJECTS >>--

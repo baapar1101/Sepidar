@@ -1,0 +1,23 @@
+exec FMK.spAddLookup 'InitiateType',1,'ابتداي استخدام','Since Employment',N'سەرەتاي دامەزراندن',N'ابتداي استخدام','PAY',1,''
+exec FMK.spAddLookup 'InitiateType',2,'انتقال سال مالي','Fiscalyear Transfer',N'گواستنەوەي ساڵي ماڵيي',N'نقل السنة المالية','PAY',2,''
+
+exec FMK.spAddLookup 'ContractType',1,'استخدام','Employment',N'دامەزراندن',N'التوظيف','PAY',1,''
+exec FMK.spAddLookup 'ContractType',2,'اصلاح قرارداد','Modification',N'چاكسازي گرێبەستەكە',N'تعديل العقد','PAY',2,''
+
+exec FMK.spAddLookup 'EmploymentType',0,'ساير','Other',N'ديكە',N'آخر','PAY',0,''
+exec FMK.spAddLookup 'EmploymentType',1,'پيماني','Peymani',N'بە گرێبەست',N'التعاقدي','PAY',1,''
+exec FMK.spAddLookup 'EmploymentType',2,'رسمي','Official',N'رەسمي',N'الرسمي','PAY',2,''
+exec FMK.spAddLookup 'EmploymentType',3,'رسمي آزمايشي','Tentative Official',N'رەسمي تێستيي',N'رسمي آزمايشي','PAY',3,''
+exec FMK.spAddLookup 'EmploymentType',4,'قراردادي','By Contract',N'بە گرێبەست',N'قراردادي','PAY',4,''
+exec FMK.spAddLookup 'EmploymentType',5,'روزمزد','Daily Pay',N'رۆژمزد',N'روزمزد','PAY',5,''
+exec FMK.spAddLookup 'EmploymentType',6,'خريد خدمت','Service Pay',N'كڕيني خزمەت',N'خدمة النظام','PAY',6,''
+exec FMK.spAddLookup 'EmploymentType',7,'مامور','Assignee',N'فەرمانبەر',N'المأمور','PAY',7,''
+exec FMK.spAddLookup 'EmploymentType',8,'ساعتي','Hourly Pay',N'كاتژمێريي',N'ساعة','PAY',8,''
+exec FMK.spAddLookup 'EmploymentType',9,'رسمي فصلي','Season Official',N'رسمي فصلي',N'الرسمي الموسمي','PAY',9,''
+exec FMK.spAddLookup 'EmploymentType',10,'كارمزدي','Wager Pay',N'حەقدەستيي',N'أجرة','PAY',10,''
+exec FMK.spAddLookup 'EmploymentType',11,'شركتي','Company',N' ',N'ذو صلة بالشركات','PAY',11,''
+
+exec FMK.spAddLookup 'TaxDiscountType',0,'','',N'',N'','PAY',0,''
+exec FMK.spAddLookup 'TaxDiscountType',1,'فرزند سوم','Third Child',N'فرزند سوم',N'فرزند سوم','PAY',1,''
+exec FMK.spAddLookup 'TaxDiscountType',2,'فرزند چهارم','Forth Child',N'فرزند چهارم',N'فرزند چهارم','PAY',2,''
+exec FMK.spAddLookup 'TaxDiscountType',3,'فرزند پنجم','Fifth Child',N'فرزند پنجم',N'فرزند پنجم','PAY',3,''

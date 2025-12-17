@@ -1,0 +1,1 @@
+Exec FMK.spCreateNumbering 'SG.FixedAsset.AssetManagement.Common.TransferRow', 1, 1, null, 1, 1, 1, 0

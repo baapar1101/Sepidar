@@ -1,0 +1,7 @@
+exec FMK.spAddKeyword 'ReceiptAndPayment.ReceiptManagement.DsPosSettlement.List', N'فهرست انتقال مانده كارتخوان، انتقال به حساب، حواله، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.ReceiptManagement.DsPosSettlement.New', N'انتقال مانده كارتخوان، شاپرك، انتقال به حساب، حواله', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.ReceiptManagement.DsReceipt.List', N'فهرست حواله بانكي، واريزي نقدي، چك، كارتخوان، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.ReceiptManagement.DsReceipt.New', N'حواله بانكي، واريزي نقدي، چك، كارتخوان، مشتري، صندوق، راس گيري، تضميني، ضمانت، تسويه تنخواه، تسويه تنخواه گردان، تسويه حساب تنخواه، دريافت مانده تنخواه', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.ReceiptManagement.dsReceiptChequeBanking.List', N'فهرست چك هاي نزد بانك، پاس شده، نقد، وصول، برگشت، واخواست، ليست', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.ReceiptManagement.dsReceiptChequeBanking.New', N'خواباندن چك به حساب، واگذار به بانك، پاس كردن، نقد، وصول، برگشت، واخواست، عودت', N'', N'', N''
+exec FMK.spAddKeyword 'ReceiptAndPayment.ReceiptManagement.DummyEntity.GeneralSearchCheque', N'وضعيت، ليست چكهاي دريافتي، پرداختي، فهرست چكهاي دريافتي، پرداختي، چك كجاست', N'', N'', N''

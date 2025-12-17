@@ -1,0 +1,1 @@
+﻿Exec FMK.spCreateNumbering 'SG.Sales.InvoiceManagement.Common.CustomsDeclarationRow', 1, 1, null, 1, 0, 0, 0

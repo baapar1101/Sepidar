@@ -1,0 +1,1 @@
+UPDATE GNR.[CostCenter] SET [Type] = 2 WHERE [TYPE] = 3

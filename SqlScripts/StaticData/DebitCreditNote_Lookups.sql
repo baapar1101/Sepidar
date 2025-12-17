@@ -1,0 +1,5 @@
+exec FMK.spAddLookup 'DebitCreditNoteType',1,'تامين كننده','Buy',N'دابينكار',N'المزود','GNR',1,''
+exec FMK.spAddLookup 'DebitCreditNoteType',3,'ساير','Other',N'ديكە',N'الآخر','GNR',3,''
+exec FMK.spAddLookup 'DebitCreditNoteType',2,'مشتري','Sales',N'كڕيار',N'زبون','GNR',2,''
+exec FMK.spAddLookup 'DebitCreditNoteType',4,'واسط','Broker',N'',N'','GNR',4,''
+exec FMK.spAddLookup 'DebitCreditNoteType',5,'تنخواه دار','PettyCash',N'',N'','GNR',5,''

@@ -1,0 +1,45 @@
+IF OBJECT_ID('GNR.vwTaxPayerBillItem') IS NOT NULL
+    DROP VIEW GNR.vwTaxPayerBillItem
+GO
+CREATE VIEW GNR.vwTaxPayerBillItem
+AS
+SELECT TPBI.[TaxPayerBillItemId]
+     , TPBI.[TaxPayerBillRef]
+     , TPBI.[TaxPayerBillItemRef]
+     , TPBI.[InvoiceItemRef]
+     , TPBI.[ReturnedInvoiceItemRef]
+     , TPBI.[CustomsDeclarationItemRef]
+     , TPBI.[StatusItemRef]
+     , TPBI.[AssetSaleItemRef]
+     , TPBI.[ItemCodeSstid]
+     , TPBI.[ItemTitleSstt]
+     , TPBI.[QuantityAm]
+     , TPBI.[UnitCodeMu]
+     , TPBI.[FeeFee]
+     , TPBI.[CurrencyFeeCfee]
+     , TPBI.[CurrencyCut]
+     , TPBI.[CurrencyRateExr]
+     , TPBI.[PurchaseSaleDifferencePspd]
+     , TPBI.[CurrencyPurchaseRateCpr]
+     , TPBI.[TaxSourceSovat]
+     , TPBI.[TaxSourcePerItem]
+     , TPBI.[DiscountDis]
+     , TPBI.[AmountBeforeDiscountPrdis]
+     , TPBI.[AmountAfterDiscountAdis]
+     , TPBI.[TaxRateVra]
+     , TPBI.[TaxVam]
+     , TPBI.[NetPriceTsstam]
+     , TPBI.[CashPaymentShareCop]
+     , TPBI.[VatShareVop]
+     , TPBI.[OtherTaxesTitleOdt]
+     , TPBI.[OtherTaxesRateOdr]
+     , TPBI.[OtherTaxesAmountOdam]
+     , TPBI.[OtherAmountsTitleOlt]
+     , TPBI.[OtherAmountsRateOlr]
+     , TPBI.[OtherAmountsAmountOlam]
+     , TPBI.[ExportPriceSscv]
+     , TPBI.[ExportPriceInBaseCurrencySsrv]
+     , TPBI.[NetWeightNw]
+     , U.Ttile AS UnitTitle
+FROM GNR.TaxPayerBillItem TPBI
+LEFT JOIN GNR.TaxPayerUnit U ON TPBI.UnitCodeMu = U.Code

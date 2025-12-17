@@ -1,0 +1,10 @@
+IF EXISTS (
+	SELECT StockRef, ItemRef, COUNT(ItemStockID)
+	FROM INV.ItemStock GROUP BY StockRef, ItemRef HAVING COUNT(ItemStockID) > 1)
+BEGIN
+	DELETE [IS] FROM
+	(
+	SELECT ROW_NUMBER() OVER(PARTITION BY ItemRef, StockRef ORDER BY ItemStockID) AS Num, * FROM INV.ItemStock
+	) AS [IS]
+	WHERE [IS].Num > 1
+END

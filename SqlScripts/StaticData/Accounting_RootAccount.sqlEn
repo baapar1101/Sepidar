@@ -1,0 +1,12 @@
+/* SD.DefineDefaultUser */ /* this line is for dependancey order of scripts*/
+declare @Creator int
+Set @Creator = (Select UserID from Fmk.[user] where UserName = 'Admin')
+if (@Creator is null)
+begin
+	RaisError('There is no Admin User in Database',16, 1 )
+end
+
+IF NOT EXISTS (SELECT 1 FROM ACC.Account WHERE AccountId < 0)
+	INSERT ACC.Account (AccountId, ParentAccountRef, Type, Code, Title, Title_En, IsActive, CashFlowCategory, OpeningBalance, BalanceType, HasBalanceTypeCheck, HasDL, HasCurrency, HasCurrencyConversion, HasTracking, HasTrackingCheck, Version,  Creator, CreationDate, LastModifier, LastModificationDate)
+	VALUES (-5,	NULL, 0, 0, 'Accounts' , 'حسابها', 1, 0, NULL, 3, 0,	0,	0,	0,	0,	0,	0,	@Creator,	getdate(), @Creator, getdate())
+
